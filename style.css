@@ -126,32 +126,40 @@ font-weight: normal;
 src: local('Raleway Black Italic'), url('fonts/Raleway-BlackItalic.woff') format('woff');
 /* La Police Rawelay
 */
+}
 html 
 {
- background-color: #F2F2F2;
+background-color: #F2F2F2;
 }
-nav-bar
+.haut-page
 {
- text-align: right;
- max-height: 80%;    
+display: flex;
 }
+.nav-bar
+{
+    display: flex;
+    align-items: center;
+    justify-content : center;
+ 
 }
 #logo
 {
-position: static;
 font: size 115x;
+position:fixed; left: 0px; top: 0px;
+width: 50px;
+height: 50px;
 /*
 modification de taille et du placement du logos
 */
 }
-hebergements
+.hebergements
 {
  font-weight: bold;
  color:blue;
  text-decoration: overline;
- 
+ line-height: 150px;
 }
-activites
+.activites
 {
  font-weight: bold;
  color:blue
