@@ -136,22 +136,19 @@ body
 {
 margin: 0px auto;
 }
-header.haut-page
+haut-page
 {
 display: flex;
-align-items: center;
-vertical-align:0px inline-block;
+
 }
 .nav-bar
 {
-display: flex;
 list-style: none;
-align-items: center;
-text-align: right;
+font-size: 84%;
 }
 #logo
 {
-font: size 150x;
+
 position:fixed; left: 15px; top: 0px;
 width: 70px;
 height: 30px;
@@ -188,5 +185,5 @@ p
 {
 font-weight: bold;
 opacity: 0.4;
-font-size: 88%;    
+font-size: 87%;    
 }
