@@ -134,9 +134,10 @@ background-color: #F2F2F2;
 }
 body
 {
-margin: 0px auto;
+color: #000;
+margin: 0.8px auto;
 }
-haut-page
+.haut-page
 {
 display: flex;
 
@@ -162,7 +163,6 @@ modification de taille et du placement du logos
  opacity: 0.7;
  color:rgb(0, 4, 231);
  text-decoration: overline;
- line-height: 150px;
 }
 .activites
 {
@@ -179,11 +179,20 @@ h1
 {
 font-size: 120%; 
 font-weight: bold;
+color: black;
   
 }
 p
 {
 font-weight: bold;
 opacity: 0.4;
-font-size: 87%;    
+font-size: 86%;    
+}
+.filtres-section
+{
+display: flex;    
+}
+.main
+{
+
 }
