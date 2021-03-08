@@ -132,11 +132,12 @@ html
 background-size: cover;
 background-color: #F2F2F2;
 }
-body
-{
+
+body {
 color: #000;
 margin: 0.8px auto;
 }
+
 .haut-page
 {
 display: flex;
@@ -149,10 +150,12 @@ font-size: 84%;
 }
 #logo
 {
-
-position:fixed; left: 15px; top: 0px;
+position:fixed;
+left: 15px;
+top: 0px;
 width: 70px;
 height: 30px;
+
 /*
 modification de taille et du placement du logos
 */
