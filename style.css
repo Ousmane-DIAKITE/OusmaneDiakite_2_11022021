@@ -18,7 +18,7 @@ display: flex;
 body {
 color: #000;
 margin: auto;
-width: 900px;
+position: sticky;
 }
 
 .nav-bar {
@@ -32,7 +32,7 @@ font-size: 84%;
 
 #logo {
 display: flex;
-position:fixed;
+position: fixed;
 left: 15px;
 top: 0px;
 width: 70px;
@@ -75,11 +75,24 @@ font-size: 86%;
 }
 
 .filtres-section {
-display: flex;    
+display: flex;
+    
 }
 
-article {
-width: 8px;
-height: 8px;
+.heb-article {
+width: 10px;
+height: 10px;
 }
 
+.la_plus_populaires {
+    
+}
+
+.activites {
+
+
+}
+
+footer {
+    
+}
