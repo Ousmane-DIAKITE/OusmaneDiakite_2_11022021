@@ -14,6 +14,9 @@ background-color: #F2F2F2;
 }
 main {
 display: flex;
+width: 600px;
+height: 400px;
+background-color: palevioletred;
 }
 body {
 color: #000;
@@ -76,23 +79,24 @@ font-size: 86%;
 
 .filtres-section {
 display: flex;
+background-color: black;
     
 }
 
 .heb-article {
-width: 10px;
-height: 10px;
+
 }
 
 .la_plus_populaires {
-    
+  
 }
 
 .activites {
 
-
 }
 
 footer {
-    
+background-color: orange;
+width: 600;
+height: 50px;  
 }
