@@ -4,195 +4,122 @@ font-style: normal;
 font-weight: normal;
 src: local('Raleway Regular'), url('fonts/Raleway-Regular.woff') format('woff');
 }
-    
-@font-face {
-font-family: 'Raleway Italic';
-font-style: normal;
-font-weight: normal;
-src: local('Raleway Italic'), url('fonts/Raleway-Italic.woff') format('woff');
-}
-    
-@font-face {
-font-family: 'Raleway Thin';
-font-style: normal;
-font-weight: normal;
-src: local('Raleway Thin'), url('fonts/Raleway-Thin.woff') format('woff');
-}
-    
-@font-face {
-font-family: 'Raleway Thin Italic';
-font-style: normal;
-font-weight: normal;
-src: local('Raleway Thin Italic'), url('fonts/Raleway-ThinItalic.woff') format('woff');
-}
-    
-@font-face {
-font-family: 'Raleway ExtraLight';
-font-style: normal;
-font-weight: normal;
-src: local('Raleway ExtraLight'), url('fonts/Raleway-ExtraLight.woff') format('woff');
-}
-    
-@font-face {
-font-family: 'Raleway ExtraLight Italic';
-font-style: normal;
-font-weight: normal;
-src: local('Raleway ExtraLight Italic'), url('fonts/Raleway-ExtraLightItalic.woff') format('woff');
-}
-    
-@font-face {
-font-family: 'Raleway Light';
-font-style: normal;
-font-weight: normal;
-src: local('Raleway Light'), url('fonts/Raleway-Light.woff') format('woff');
-}
-    
-@font-face {
-font-family: 'Raleway Light Italic';
-font-style: normal;
-font-weight: normal;
-src: local('Raleway Light Italic'), url('fonts/Raleway-LightItalic.woff') format('woff');
-}
-    
-@font-face {
-font-family: 'Raleway Medium';
-font-style: normal;
-font-weight: normal;
-src: local('Raleway Medium'), url('fonts/Raleway-Medium.woff') format('woff');
-}
-    
-@font-face {
-font-family: 'Raleway Medium Italic';
-font-style: normal;
-font-weight: normal;
-src: local('Raleway Medium Italic'), url('fonts/Raleway-MediumItalic.woff') format('woff');
-}
-    
-
-@font-face {
-font-family: 'Raleway SemiBold';
-font-style: normal;
-font-weight: normal;
-src: local('Raleway SemiBold'), url('fonts/Raleway-SemiBold.woff') format('woff');
-}
-    
-
-@font-face {
-font-family: 'Raleway SemiBold Italic';
-font-style: normal;
-font-weight: normal;
-src: local('Raleway SemiBold Italic'), url('fonts/Raleway-SemiBoldItalic.woff') format('woff');
-}
-    
-
-@font-face {
-font-family: 'Raleway Bold';
-font-style: normal;
-font-weight: normal;
-src: local('Raleway Bold'), url('fonts/Raleway-Bold.woff') format('woff');
-}  
-
-@font-face {
-font-family: 'Raleway Bold Italic';
-font-style: normal;
-font-weight: normal;
-src: local('Raleway Bold Italic'), url('fonts/Raleway-BoldItalic.woff') format('woff');
-}
-    
-@font-face {
-font-family: 'Raleway ExtraBold';
-font-style: normal;
-font-weight: normal;
-src: local('Raleway ExtraBold'), url('fonts/Raleway-ExtraBold.woff') format('woff');
-}
-    
-@font-face {
-font-family: 'Raleway ExtraBold Italic';font-style: normal;
-font-weight: normal;
-src: local('Raleway ExtraBold Italic'), url('fonts/Raleway-ExtraBoldItalic.woff')format('woff');
-}
-    
-@font-face {
-font-family: 'Raleway Black';
-font-style: normal;
-font-weight: normal;
-src: local('Raleway Black'), url('fonts/Raleway-Black.woff') format('woff');
-}
-    
-@font-face {
-font-family: 'Raleway Black Italic';
-font-style: normal;
-font-weight: normal;
-src: local('Raleway Black Italic'), url('fonts/Raleway-BlackItalic.woff') format('woff');
 /* La Police Rawelay
 */
 }
-html 
-{
+
+html {
 background-size: cover;
 background-color: #F2F2F2;
 }
-body
-{
-color: #000;
-margin: 0.8px auto;
-}
-.haut-page
-{
+main {
 display: flex;
+justify-content: center;
+align-items: center;
+background-color: palevioletred;
+}
+body {
+color: #000;
+margin: auto;
 
 }
-.nav-bar
-{
+
+.nav-bar {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: flex-end;
 list-style: none;
 font-size: 84%;
 }
-#logo
-{
 
-position:fixed; left: 15px; top: 0px;
+#logo {
+display: flex;
+position: fixed;
+left: 15px;
+top: 0px;
 width: 70px;
 height: 30px;
+}
 /*
 modification de taille et du placement du logos
 */
+
+.hebergements {
+font-weight: bold;
+opacity: 0.7;
+color:rgb(0, 4, 231);
+text-decoration: overline;
+list-style: none;
+
 }
-.hebergements
-{
- font-weight: bold;
- opacity: 0.7;
- color:rgb(0, 4, 231);
- text-decoration: overline;
+
+.activites {
+font-weight: bold;
+color:rgb(134, 129, 122);
+list-style: none;
 }
-.activites
-{
- font-weight: bold;
- color:rgb(134, 129, 122);
- list-style: none;
-}
-button
-{
+
+button {
 font-weight: bold;
 color:blue;  
 }
-h1
-{
+
+h1 {
 font-size: 120%; 
 font-weight: bold;
 color: black;
-  
 }
-p
-{
+
+p {
 font-weight: bold;
 opacity: 0.4;
 font-size: 86%;    
 }
-.filtres-section
-{
-display: flex;    
+
+.filtres-section {
+display: flex;
+background-color: black;
+    
 }
-.main
+
+.heb-article {
+width: 150px;
+height: 150px;
+
+}
+
+.la_plus_populaires {
+order: 5;   
+flex-direction: column;
+justify-content: center;  
+}
+
 {
 
+}
+
+footer {
+background-color: orange;
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+align-items: flex-end;
+list-style: none;
+  
+}
+/*
+les images*/
+.Hebergements-image {
+width: 100px; 
+height: 100px;   
+}
+
+.Populaire-image {
+width: 100px;   
+height: 100px; 
+}
+.Activiter-image {
+width: 100px;
+height: 100px;
 }
