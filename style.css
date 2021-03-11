@@ -14,14 +14,14 @@ background-color: #F2F2F2;
 }
 main {
 display: flex;
-width: 600px;
-height: 400px;
+justify-content: center;
+align-items: center;
 background-color: palevioletred;
 }
 body {
 color: #000;
 margin: auto;
-position: sticky;
+
 }
 
 .nav-bar {
@@ -84,19 +84,42 @@ background-color: black;
 }
 
 .heb-article {
+width: 150px;
+height: 150px;
 
 }
 
 .la_plus_populaires {
-  
+order: 5;   
+flex-direction: column;
+justify-content: center;  
 }
 
-.activites {
+{
 
 }
 
 footer {
 background-color: orange;
-width: 600;
-height: 50px;  
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+align-items: flex-end;
+list-style: none;
+  
+}
+/*
+les images*/
+.Hebergements-image {
+width: 100px; 
+height: 100px;   
+}
+
+.Populaire-image {
+width: 100px;   
+height: 100px; 
+}
+.Activiter-image {
+width: 100px;
+height: 100px;
 }
