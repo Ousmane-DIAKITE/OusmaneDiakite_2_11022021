@@ -1,0 +1,144 @@
+@font-face {
+font-family: 'Raleway Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Raleway Regular'), url('fonts/Raleway-Regular.woff') format('woff');
+}
+/* La Police Rawelay
+*/
+
+
+html {
+background-size: cover;
+background-color: #F2F2F2;
+}
+main {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+body {
+grid-auto-rows: 100px;
+}
+
+.nav-bar {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: flex-end;
+list-style: none;
+font-size: 84%;
+}
+
+#logo {
+display: flex;
+position: fixed;
+left: 15px;
+top: 0px;
+width: 70px;
+height: 30px;
+}
+/*
+modification de taille et du placement du logos
+*/
+
+.hebergements {
+font-weight: bold;
+opacity: 0.7;
+color:rgb(0, 4, 231);
+text-decoration: overline;
+list-style: none;
+
+}
+
+.activites {
+font-weight: bold;
+color:rgb(134, 129, 122);
+list-style: none;
+}
+
+.signup {
+font-weight: bold;
+color:blue;  
+}
+
+h1 {
+font-size: 120%; 
+font-weight: bold;
+color: black;
+}
+
+p {
+font-weight: bold;
+opacity: 0.4;
+font-size: 86%;    
+}
+
+.filtres-section {
+display: flex;
+background-color: black;
+    
+}
+
+.activites {
+    display: grid;
+    margin: 30px 60px 45px 85px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px 2em;
+    justify-content: left;
+    align-self: flex-end;
+    align-content: center;
+    
+
+}
+
+.heb-article {
+display: grid;
+margin: 30px 60px 45px 85px;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 10px 2em;    
+
+}
+
+.la_plus_populaires {
+order: 5;   
+flex-direction: column;
+justify-content: center;  
+
+}
+
+footer {
+
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+align-items: flex-end;
+list-style: none;
+border: #a79c9c outset;
+}
+.Hebergement-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px 2em;
+width: 80px;
+height: 80px;
+flex-wrap: nowrap;
+   
+}
+
+.Populaire-image {
+width: 100px;   
+height: 100px; 
+}
+.Activiter-imageA {
+width: 130px;
+height: 60px;
+flex-wrap: nowrap;
+}
+
+.Activiter-image {
+width: 100px;
+height: 100px;
+flex-wrap: nowrap;
+}
