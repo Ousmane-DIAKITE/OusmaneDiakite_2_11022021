@@ -7,60 +7,96 @@ src: local('Raleway Regular'), url('fonts/Raleway-Regular.woff') format('woff');
 /* La Police Rawelay
 */
 
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+h1, h2, h3 {
+margin: 20px;
+}
+
+
 
 html {
 background-size: cover;
 background-color: #F2F2F2;
 }
-main {
-display: flex;
-justify-content: center;
-align-items: center;
+
+body {
+}
+/* LOGO */
+
+.logo {
+float: left;
+width: 75px;
+height: 45px;
 
 }
-body {
-grid-auto-rows: 100px;
-}
+
+/* logo */
+
+/* navbar */
 
 .nav-bar {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-align-items: flex-end;
-list-style: none;
+background: cadetblue;
 font-size: 84%;
+overflow: auto;
+line-height: 1.7em;
 }
-
-#logo {
+.nav-bar .logo {
+float: left;
+}
+.nav-bar ul {
+float: right;
+list-style: none;
 display: flex;
-position: fixed;
-left: 15px;
-top: 0px;
-width: 70px;
-height: 30px;
-}
-/*
-modification de taille et du placement du logos
-*/
+padding: 25px;
+justify-content: space-between;
 
-.hebergements {
+}
+.nav-bar .logo ul li a {
+   
+display: flex;
+justify-content: space-between;
+margin: 10px-;
+}
+
+.nav-bar a {
+padding: 0 10px;
+}
+
+.hebergements-navbar {
 font-weight: bold;
 opacity: 0.7;
 color:rgb(0, 4, 231);
 text-decoration: overline;
-list-style: none;
-
+list-style: none;   
 }
-
-.activites {
+    
+.activites-navbar {
 font-weight: bold;
 color:rgb(134, 129, 122);
 list-style: none;
+text-decoration: none;
 }
-
-.signup {
+    
+.signup-navbar {
 font-weight: bold;
-color:blue;  
+color:blue;
+text-decoration: none; 
+}
+    
+/* NAV-BAR */
+
+/* RECHERCHE */
+
+.recherche h1, p, form{
+height: 20px;
+margin: 0;
+color: black;
 }
 
 h1 {
@@ -75,70 +111,99 @@ opacity: 0.4;
 font-size: 86%;    
 }
 
+
+
+/* RECHERCHE */
+
+/* FILTRE */
+
 .filtres-section {
 display: flex;
-background-color: black;
-    
+background-color: black;    
+color: rgb(14, 12, 161);
+}
+
+/* FILTRE */
+
+/* MAIN */
+
+.container .hebergements, .activites, .la_plus_populaires {
+height: 600px;
+color: black;
+display: flex;
+
 }
 
 .activites {
-    display: grid;
-    margin: 30px 60px 45px 85px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px 2em;
-    justify-content: left;
-    align-self: flex-end;
-    align-content: center;
-    
+display: flex;
+flex-direction: row;
+height: 250px;
 
 }
 
-.heb-article {
-display: grid;
-margin: 30px 60px 45px 85px;
-grid-template-columns: 1fr 1fr 1fr;
-grid-gap: 10px 2em;    
-
+.hebergements {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+flex: 100%;
+max-height: 250px;
+height: 250px;
+width: 600px;
+border-style: outset;
+border-radius: 10px;
+border-color: rgb(168, 167, 167);
+background-color: rgb(168, 167, 167);
 }
 
 .la_plus_populaires {
-order: 5;   
-flex-direction: column;
-justify-content: center;  
+ height: 500px;
+ width: 200px;
+ max-height: 600px;
 
+ flex-direction: column;
+ border-style: outset;
+ border-radius: 10px;
+ border-color: rgb(168, 167, 167);
+ background-color: rgb(168, 167, 167);
 }
 
-footer {
+/* Main */
 
+/* IMAGE */
+
+.Hebergements-image {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 50px;
+height: 50px;   
+}
+
+.Populaire-image {
+width: 50px;   
+height: 50px; 
+}
+.Activiter-imageA {
+width: 50px;
+height: 50px;
+}
+
+.Activiter-image {
+width: 50px;
+height: 50pw;
+}
+
+/* IMAGES */
+
+ /* FOOTER */
+
+footer {
 display: flex;
 flex-direction: row-reverse;
 justify-content: center;
 align-items: flex-end;
 list-style: none;
 border: #a79c9c outset;
-}
-.Hebergement-image {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px 2em;
-width: 80px;
-height: 80px;
-flex-wrap: nowrap;
-   
-}
-
-.Populaire-image {
-width: 100px;   
-height: 100px; 
-}
-.Activiter-imageA {
-width: 130px;
-height: 60px;
-flex-wrap: nowrap;
-}
-
-.Activiter-image {
-width: 100px;
-height: 100px;
-flex-wrap: nowrap;
 }
