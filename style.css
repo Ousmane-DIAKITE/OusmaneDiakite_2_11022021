@@ -177,7 +177,7 @@ display: flex;
 
 /* hebergements */
 
-.hebergements {
+ {
     display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
@@ -226,8 +226,8 @@ padding: auto;
     flex-direction: row wrap;
     justify-content: flex-start;
     padding: 0.2rem;    
-width: 50px;
-height: 50px;   
+width: 40px;
+height: 40px;   
 }
 
 .Populaire-image {
@@ -235,16 +235,15 @@ display: flex;
 align-content: center;
 margin: 10px;
 padding: auto;
-width: 50px;   
-height: 50px; 
+width: 40px;   
+height: 40px; 
 }
 .Activiter-imageA {
     display: flex;
     flex-direction: row wrap;
     padding: 0.2rem;
-    
-width: 50px;
-height: 50px;
+width: 40px;
+height: 0px;
 
 }
 
