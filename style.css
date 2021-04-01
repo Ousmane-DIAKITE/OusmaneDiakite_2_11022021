@@ -26,8 +26,10 @@ background-color: #F2F2F2;
 }
 
 body {
+  margin: auto;
 }
-/* LOGO */
+
+/* logo */
 
 .logo {
 float: left;
@@ -138,20 +140,17 @@ margin: 10px;
 width: 200px;
 height: 33px;
 }
-.eco {
 
+.eco {
 }
 
 .family {
-
 }
 
 .romantic {
-
 }
 
 .animals {
-
 }
 
 /* FILTRE */
@@ -173,40 +172,46 @@ display: flex;
     display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
-
+}
 
 /* hebergements */
 
- {
-    display: flex;
-  flex-direction: row;
-  flex-wrap: wrap-reverse;
-    padding: 0.2rem;   
+.hebergements {
+display: flex;
+flex: 3;
+flex-direction: row;
+flex-wrap: wrap-reverse;
+margin: 20px;
 border-style: outset;
 border-radius: 10px;
 border-color: rgb(219, 218, 218);
 background-color: rgb(224, 217, 217);
+}
 
 .hebergements h2 {
-
+  display: flex;
+  align-content: center;
+  margin: 10px;
+  padding: auto;
+  list-style: none;
 }
 
 /* hebergements */
 
-}
+
 /* la plus populaires */
 
 .la_plus_populaires {
-
+display: flex;
+flex: 1;
+margin: 20px;
  flex-direction: column;
  border-style: outset;
  border-radius: 10px;
  border-color: rgb(219, 218, 218);
  background-color: rgb(224, 217, 217);
-
 align-items: center;
 }
-<--H2!-->
 
 .la_plus_populaires h2 {
 display: flex;
@@ -222,10 +227,10 @@ padding: auto;
 /* IMAGE */
 
 .Hebergements-image {
-    display: flex;
-    flex-direction: row wrap;
-    justify-content: flex-start;
-    padding: 0.2rem;    
+display: flex;
+flex-direction: row wrap;
+justify-content: flex-start;
+padding: 0.2rem;    
 width: 40px;
 height: 40px;   
 }
@@ -244,14 +249,12 @@ height: 40px;
     padding: 0.2rem;
 width: 40px;
 height: 0px;
-
 }
 
 .Activiter-image {
     display: flex;
     flex-direction: row wrap;
-    padding: 0.2rem;
-       
+    padding: 0.2rem;    
 width: 50px;
 height: 50pw;
 }
