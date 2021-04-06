@@ -193,7 +193,7 @@ max-height: 1000px;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-justify-content: space-evenly;
+justify-content: space-around;
 align-items: center;
   
 }
@@ -207,9 +207,7 @@ align-items: center;
 
 }
 .hebergements-header {
-height: 100px;
-min-width: auto;
-  margin: 25px 0 25px 25px;
+margin: 25px 0 25px 25px;
   
 }
 
