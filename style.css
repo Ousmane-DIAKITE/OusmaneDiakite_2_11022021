@@ -199,7 +199,7 @@ align-items: center;
 }
 .hebergements-figure {
  display: flex;
- width: 250px;
+ width: 150px;
  height: 150px;
  border: 4px solid black;
  margin:10px;
@@ -234,6 +234,13 @@ align-content: center;
 margin: 10px;
 padding: auto;
 font-weight: 700;
+}
+.populaire-figure {
+  width: 200px;
+ height: 200px;
+ border: 4px solid black;
+ margin:10px;
+ background-color: white;
 }
 
 /* la plus populaires */
