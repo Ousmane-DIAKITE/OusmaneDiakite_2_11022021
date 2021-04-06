@@ -107,7 +107,7 @@ color: black;
 
 h1 {
 font-family: 'raleway', sans-serif; 
-font-size: 140%; 
+font-size: 145%; 
 font-weight: bold;
 color: black;
 margin: 10px;
@@ -117,7 +117,7 @@ p {
 font-family: 'raleway', sans-serif;
 color: black;
 font-size: 100%;  
-margin: 10px;  
+margin: 0 15px 0 15px;
 }
 
 
@@ -137,7 +137,7 @@ border: 3px solid rgb(202, 202, 202);
 border-radius: 50px;
 font-size: 20px;
 margin: 10px;
-width: 200px;
+width: 215px;
 height: 33px;
 }
 
@@ -173,27 +173,37 @@ display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
 }
+.activites h2 {
+  display: block;
+  font-weight: 700;
+}
 
 /* hebergements */
 
 .hebergements {
-display: flex;
+
 flex: 3;
-flex-direction: row;
-flex-wrap: wrap-reverse;
-margin: 20px;
+
 border-style: outset;
 border-radius: 10px;
 border-color: rgb(219, 218, 218);
 background-color: rgb(224, 217, 217);
+max-height: 1000px;
 }
+.hebergements-figure {
+ display: flex;
+ width: 50%;
+ height:60px;
+ border: 4px solid black;
+ margin:10px;
+ background-color: white;
 
-.hebergements h2 {
-  display: flex;
-  align-content: center;
-  margin: 10px;
-  padding: auto;
-  list-style: none;
+}
+.hebergements-header {
+height: 100px;
+min-width: auto;
+  margin: 25px 0 25px 25px;
+  
 }
 
 /* hebergements */
@@ -218,6 +228,7 @@ display: flex;
 align-content: center;
 margin: 10px;
 padding: auto;
+font-weight: 700;
 }
 
 /* la plus populaires */
@@ -227,10 +238,8 @@ padding: auto;
 /* IMAGE */
 
 .Hebergements-image {
-display: flex;
-flex-direction: row wrap;
-justify-content: flex-start;
-padding: 0.2rem;    
+
+   
 width: 40px;
 height: 40px;   
 }
