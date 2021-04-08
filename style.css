@@ -236,14 +236,24 @@ margin: 10px;
 padding: auto;
 font-weight: 700;
 }
+
 .populaire-figure {
-  width: 331px;
- height: 140px;
+  display: flex;
+  width: 351px;
+ height: 150px;
  border: 4px solid white;
- border-radius: 50px;
- margin: 20px;
+ border-radius: 40px;
+ margin: 12px;
  background-color: white;
- padding: 5px;
+}
+.populaire-description {
+margin-top: 0px;
+margin: 15px;
+
+}
+
+.populaire-description p {
+margin-left: 10px;
 }
 
 /* la plus populaires */
@@ -261,9 +271,10 @@ height: 126px;
 
 .Populaire-image {
 display: flex;
-align-content: center;
-margin: 10px;
-padding: auto;
+border-top-left-radius: 50px;
+border-bottom-left-radius: 40px;
+width: 100%;
+    height: 100%;
 width: 124px;   
 height: 140px; 
 }
