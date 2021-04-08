@@ -199,9 +199,10 @@ align-content: center;
 .hebergements-figure {
  display: flex;
  flex-direction: column;
- width: 260px;
- height: 150px;
- border: 4px solid black;
+ width: 252px;
+ height: 244px;
+ border: 4px solid white;
+ border-radius: 50px;
  margin: 20px;
  background-color: white;
 
@@ -236,11 +237,13 @@ padding: auto;
 font-weight: 700;
 }
 .populaire-figure {
-  width: 200px;
- height: 200px;
- border: 4px solid black;
- margin:10px;
+  width: 331px;
+ height: 140px;
+ border: 4px solid white;
+ border-radius: 50px;
+ margin: 20px;
  background-color: white;
+ padding: 5px;
 }
 
 /* la plus populaires */
@@ -250,10 +253,10 @@ font-weight: 700;
 /* IMAGE */
 
 .Hebergements-image {
-
-   
-width: 40px;
-height: 40px;   
+border-top-right-radius: 50px;
+border-top-left-radius: 50px;  
+width: 242px;
+height: 126px;   
 }
 
 .Populaire-image {
@@ -261,8 +264,8 @@ display: flex;
 align-content: center;
 margin: 10px;
 padding: auto;
-width: 40px;   
-height: 40px; 
+width: 124px;   
+height: 140px; 
 }
 .Activiter-imageA {
     display: flex;
