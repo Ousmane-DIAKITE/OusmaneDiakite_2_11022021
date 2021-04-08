@@ -186,8 +186,8 @@ border-style: outset;
 border-radius: 10px;
 border-color: rgb(219, 218, 218);
 background-color: rgb(224, 217, 217);
-max-height: 1000px;
-
+margin: 0px 30px;
+padding: 0px 30px;
 }
 .section-hebergements {
 display: flex;
@@ -201,15 +201,18 @@ align-content: center;
  flex-direction: column;
  width: 252px;
  height: 244px;
- border: 4px solid white;
- border-radius: 50px;
- margin: 20px;
+ border: 5px solid white;
+ border-radius: 30px;
+ margin: 0px;
+
  background-color: white;
 
 }
 .hebergements-header {
 margin: 25px 0 25px 25px;
-  
+}
+.hebergements-description p {
+margin: 10px
 }
 
 /* hebergements */
@@ -220,7 +223,6 @@ margin: 25px 0 25px 25px;
 .la_plus_populaires {
 display: flex;
 flex: 1;
-margin: 20px;
  flex-direction: column;
  border-style: outset;
  border-radius: 10px;
@@ -241,9 +243,9 @@ font-weight: 700;
   display: flex;
   width: 351px;
  height: 150px;
- border: 4px solid white;
+ border: 5px solid white;
  border-radius: 40px;
- margin: 12px;
+ margin: 0px 5px 5px 15px;
  background-color: white;
 }
 .populaire-description {
@@ -263,8 +265,8 @@ margin-left: 10px;
 /* IMAGE */
 
 .Hebergements-image {
-border-top-right-radius: 50px;
-border-top-left-radius: 50px;  
+border-top-right-radius: 30px;
+border-top-left-radius: 30px;  
 width: 242px;
 height: 126px;   
 }
