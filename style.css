@@ -186,6 +186,7 @@ flex-direction: row;
 .activites-figure {
 display: flex;
 flex-wrap: nowrap;
+
 }
 
 /* hebergements */
@@ -296,9 +297,10 @@ width: 124px;
 height: 140px; 
 }
 .Activiter-imageA {
-    
-width: 40px;
-height: 40px;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+width: 307px;
+height: 399px;
 }
 
 .Activiter-image {   
