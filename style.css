@@ -170,14 +170,17 @@ flex-direction: row-reverse;
 }
 
 .activites {
-    display: block
+    display: block;
   flex-wrap: nowrap;
 }
+
 .activites h2 {
 margin: 20px;
 font-weight: 700;
 }
 .section-activites {
+display: flex;
+flex-direction: row;
 
 }
 .activites-figure {
