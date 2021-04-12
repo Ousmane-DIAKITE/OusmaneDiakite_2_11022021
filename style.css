@@ -182,11 +182,21 @@ font-weight: 700;
 display: flex;
 flex-direction: row;
 
+
+
 }
 .activites-figure {
-display: flex;
-flex-wrap: nowrap;
-
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: white;
+  border-radius: 40px;
+  border: 2px white outset;
+box-shadow: 3px 3px 3px rgb(204, 196, 196);
+}
+.acitivite-description {
+margin: 20px;
+box-shadow: 6px black;
 }
 
 /* hebergements */
@@ -297,10 +307,22 @@ width: 124px;
 height: 140px; 
 }
 .Activiter-imageA {
+
 border-top-left-radius: 30px;
 border-top-right-radius: 30px;
 width: 307px;
 height: 399px;
+}
+.Activiter-imageB {
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+width: 307px;
+height: 209px;
+}
+
+.Activiter-imageC {
+width: 307px;
+height: 109px;
 }
 
 .Activiter-image {   
