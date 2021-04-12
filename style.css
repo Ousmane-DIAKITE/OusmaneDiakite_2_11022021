@@ -140,7 +140,10 @@ margin: 10px;
 width: 215px;
 height: 33px;
 }
+.sous-titre {
+margin: 20px;
 
+}
 .eco {
 }
 
@@ -172,10 +175,13 @@ flex-direction: row-reverse;
   flex-wrap: wrap-reverse;
 }
 .activites h2 {
-  display: block;
-  font-weight: 700;
+margin: 20px;
+font-weight: 700;
 }
+.activite-figure {
+display: flex;
 
+}
 /* hebergements */
 
 .hebergements {
@@ -284,17 +290,12 @@ width: 124px;
 height: 140px; 
 }
 .Activiter-imageA {
-    display: flex;
-    flex-direction: row wrap;
-    padding: 0.2rem;
+    
 width: 40px;
 height: 0px;
 }
 
-.Activiter-image {
-    display: flex;
-    flex-direction: row wrap;
-    padding: 0.2rem;    
+.Activiter-image {   
 width: 50px;
 height: 50pw;
 }
