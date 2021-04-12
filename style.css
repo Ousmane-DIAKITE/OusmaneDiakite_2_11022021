@@ -170,18 +170,21 @@ flex-direction: row-reverse;
 }
 
 .activites {
-    display: flex;
-  flex-direction: row;
-  flex-wrap: wrap-reverse;
+    display: block
+  flex-wrap: nowrap;
 }
 .activites h2 {
 margin: 20px;
 font-weight: 700;
 }
-.activite-figure {
-display: flex;
+.section-activites {
 
 }
+.activites-figure {
+display: flex;
+flex-wrap: nowrap;
+}
+
 /* hebergements */
 
 .hebergements {
@@ -292,7 +295,7 @@ height: 140px;
 .Activiter-imageA {
     
 width: 40px;
-height: 0px;
+height: 40px;
 }
 
 .Activiter-image {   
