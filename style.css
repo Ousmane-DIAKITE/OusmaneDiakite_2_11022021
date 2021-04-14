@@ -131,10 +131,12 @@ margin: 0 15px 0 15px;
 display: flex;    
 color: black;
 }
+
 .eco, .family, .romantic, .animals {
 display: flex;
 align-items: center;
 border: 3px solid rgb(202, 202, 202);
+background-color: white;
 border-radius: 50px;
 font-size: 20px;
 margin: 10px;
@@ -146,6 +148,7 @@ margin: 20px;
 
 }
 .eco {
+background-color: white;
 }
 
 .family {
