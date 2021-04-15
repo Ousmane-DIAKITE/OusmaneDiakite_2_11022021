@@ -114,6 +114,10 @@ color: black;
 margin: 10px;
 }
 
+/* RECHERCHE */
+
+/* INFO */
+
 p {
 font-family: 'raleway', sans-serif;
 color: black;
@@ -121,9 +125,12 @@ font-size: 100%;
 margin: 0 15px 0 15px;
 }
 
+.info {
+display: flex;
 
+}
 
-/* RECHERCHE */
+/* INFO */
 
 /* FILTRE */
 
@@ -132,7 +139,7 @@ display: flex;
 color: black;
 }
 
-.eco, .family, .romantic, .animals {
+.liste-filtres, .ul, .li {
 display: flex;
 align-items: center;
 border: 3px solid rgb(202, 202, 202);
@@ -142,6 +149,7 @@ font-size: 20px;
 margin: 10px;
 width: 215px;
 height: 33px;
+text-decoration: none;
 }
 .sous-titre {
 margin: 20px;
@@ -149,6 +157,7 @@ margin: 20px;
 }
 .eco {
 background-color: white;
+text-decoration: none;
 }
 
 .family {
