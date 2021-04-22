@@ -117,7 +117,7 @@ margin: 10px;
 /* RECHERCHE */
 
 /* INFO */
-
+ 
 p {
 font-family: 'raleway', sans-serif;
 color: black;
@@ -125,10 +125,7 @@ font-size: 100%;
 margin: 0 15px 0 15px;
 }
 
-.info {
-display: flex;
 
-}
 
 /* INFO */
 
