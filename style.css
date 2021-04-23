@@ -453,8 +453,8 @@ height: 169px;
 margin: 10px;
 }
 
-.true {
-color: var(--primary);
+.star-icone[data-active="true"] {
+color: rgb(59, 95, 252);
 }
 
 /* ICONE STAR */
