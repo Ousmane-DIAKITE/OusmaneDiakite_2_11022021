@@ -101,7 +101,7 @@ margin: 20px;
 display: flex;
 justify-content: center;
 font-size: 18px;
-font-weight: 700
+font-weight: 700;
 
 }
     
@@ -156,8 +156,7 @@ margin: 0 15px 0 15px;
 
 .filtres-section {
 display: flex;
-flex-wrap: wrap;
-flex-direction: column;   
+flex-wrap: wrap; 
 color: black;
 
 }
