@@ -134,9 +134,10 @@ margin: 0 15px 0 15px;
 .filtres-section {
 display: flex;    
 color: black;
+
 }
 
-.liste-filtres, .ul, .li {
+.liste-filtres {
 display: flex;
 align-items: center;
 border: 3px solid rgb(202, 202, 202);
@@ -144,26 +145,42 @@ background-color: white;
 border-radius: 50px;
 font-size: 20px;
 margin: 10px;
-width: 215px;
-height: 33px;
-text-decoration: none;
-}
-.sous-titre {
-margin: 20px;
+width: 250px;
+margin-right: 25px
 
 }
+
+.sous-titre {
+margin: 20px;
+}
+
+.filtres-icone {
+border-radius: 100%;
+background-color:#DEEBFF;
+color: #0065FC; 
+align-content: center;
+
+}
+
 .eco {
+display: flex;
 background-color: white;
-text-decoration: none;
+border: none;
 }
 
 .family {
+display: flex;
+border: none;
 }
 
 .romantic {
+display: flex;
+border: none;
 }
 
 .animals {
+display: flex;
+border: none;
 }
 
 /* FILTRE */
