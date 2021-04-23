@@ -140,15 +140,22 @@ color: black;
 
 .liste-filtres {
 display: flex;
+flex-wrap: wrap;
 align-items: center;
-border: 3px solid rgb(202, 202, 202);
-background-color: white;
-border-radius: 50px;
+border: 2px solid #F2F2F2;
+border-radius: 2rem;
+margin-bottom: 0.5rem;
 font-size: 20px;
 margin: 10px;
 width: 250px;
 height: 44px;
 
+}
+.filtres-section, .liste-filtres, .filtres-icone {
+display: flex;
+}
+.liste-filtres, .filtres-icone {
+align-content: center;
 }
 
 .sous-titre {
@@ -156,14 +163,14 @@ margin: 20px;
 }
 
 .filtres-icone {
-display: flex;
-border-radius: 100%;
-background-color:#DEEBFF;
-color: #0065FC; 
-align-content: center;
-align-items: center;
-height: 44px;
-width: 44px;
+  background-color: #DEEBFF;
+  border-radius: 100%;
+  height: 44px;
+  width: 44px;
+  justify-content: center;
+  margin: -2px;
+  color: #0065FC;
+  align-items: center;
 }
 
 .eco {
@@ -175,18 +182,21 @@ margin: 0 15px;
 
 .family {
 display: flex;
+background-color: white;
 border: none;
 margin: 0 15px;
 }
 
 .romantic {
 display: flex;
+background-color: white;
 border: none;
 margin: 0 15px;
 }
 
 .animals {
 display: flex;
+background-color: white;
 border: none;
 margin: 0 15px;
 }
