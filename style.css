@@ -148,7 +148,11 @@ font-size: 100%;
 margin: 0 15px 0 15px;
 }
 
-
+.sous-titre-icone {
+color: white;
+background-color: rgb(9, 23, 223);
+border-radius: 1px  ;
+}
 
 /* INFO */
 
