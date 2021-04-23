@@ -132,7 +132,8 @@ margin: 0 15px 0 15px;
 /* FILTRE */
 
 .filtres-section {
-display: flex;    
+display: flex;
+flex-wrap: wrap;   
 color: black;
 
 }
@@ -146,7 +147,7 @@ border-radius: 50px;
 font-size: 20px;
 margin: 10px;
 width: 250px;
-margin-right: 25px
+height: 44px;
 
 }
 
@@ -155,32 +156,39 @@ margin: 20px;
 }
 
 .filtres-icone {
+display: flex;
 border-radius: 100%;
 background-color:#DEEBFF;
 color: #0065FC; 
 align-content: center;
-
+align-items: center;
+height: 44px;
+width: 44px;
 }
 
 .eco {
 display: flex;
 background-color: white;
 border: none;
+margin: 0 15px;
 }
 
 .family {
 display: flex;
 border: none;
+margin: 0 15px;
 }
 
 .romantic {
 display: flex;
 border: none;
+margin: 0 15px;
 }
 
 .animals {
 display: flex;
 border: none;
+margin: 0 15px;
 }
 
 /* FILTRE */
