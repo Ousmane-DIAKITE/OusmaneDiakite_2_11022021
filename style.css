@@ -106,6 +106,13 @@ margin: 10px;
 color: black;
 }
 
+.icone-info-ville {
+background-color: #F2F2F2;
+border-radius: 15px 0 0 15px;
+padding: 14px 14px 14px 18px;
+}
+
+
 h1 {
 font-family: 'raleway', sans-serif; 
 font-size: 145%; 
@@ -133,7 +140,8 @@ margin: 0 15px 0 15px;
 
 .filtres-section {
 display: flex;
-flex-wrap: wrap;   
+flex-wrap: wrap;
+flex-direction: column;   
 color: black;
 
 }
