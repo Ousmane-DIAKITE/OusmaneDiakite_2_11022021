@@ -148,10 +148,14 @@ font-size: 100%;
 margin: 0 15px 0 15px;
 }
 
+
 .sous-titre-icone {
-color: white;
-background-color: rgb(9, 23, 223);
-border-radius: 1px  ;
+border: 1px solid #DEEBFF;
+border-radius: 100%;
+height: 50px;
+width: 50px;
+font-weight: 900;
+color: blue;
 }
 
 /* INFO */
@@ -450,7 +454,7 @@ margin: 10px;
 }
 
 .true {
-color: blue;
+color: var(--primary);
 }
 
 /* ICONE STAR */
