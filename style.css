@@ -470,18 +470,30 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 height: 200px;
-border: #a79c9c outset;
-background-color: rgb(216, 209, 209);
+border: #F2F2F2 outset;
+background-color: #F2F2F2;
 font-family: 'Raleway', sans-serif;
+padding: 0 0 0 20px;
 }
 
 .footer-left h3 {
-font-size: 25px;
+font-size: 17px;
+margin: 20px 10px 15px 0;
+}
+
+.footer-central h3 {
+font-size: 17px;
+margin: 20px 10px 15px 0;
+}
+
+.footer-right h3 {
+font-size: 17px;
+margin: 20px 10px 15px 0;
 }
 
 .footer-left li {
 display: flex;
-font-size: 20px;
+font-size: 15px;
 list-style: none;
 text-decoration: none;
 }
@@ -505,14 +517,15 @@ flex-direction: column;
 }
 .footer-central li {
 display: flex;
-font-size: 20px;
+font-size: 15px;
 list-style: none;
 text-decoration: none;
+line-height: 23px;
 }
 
 .footer-right li {
 display: flex;
-font-size: 20px;
+font-size: 15px;
 list-style: none;
 text-decoration: none;
 }
