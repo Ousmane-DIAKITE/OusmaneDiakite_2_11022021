@@ -287,6 +287,7 @@ font-weight: 700;
 .section-activites {
 display: flex;
 flex-direction: row;
+margin-bottom: 35px;
 }
 .activites-figure-big-photo {
 display: flex;
