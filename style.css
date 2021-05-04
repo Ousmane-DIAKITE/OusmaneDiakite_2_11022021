@@ -297,6 +297,15 @@ border-radius: 40px;
 border: 2px white outset;
 box-shadow: 3px 3px 3px rgb(204, 196, 196);
 }
+.activites-figure-medium-photo-1 {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: white;
+  border-radius: 40px;
+  border: 2px white outset;
+  box-shadow: 3px 3px 3px rgb(204, 196, 196);
+}
 .acitivite-description {
 margin: 20px;
 box-shadow: 6px black;
