@@ -409,10 +409,11 @@ margin: 0px 30px 0px 0px;
   justify-content: space-between;
 }
 
-.la_plus_populaires h2 {
+.populaire-h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-right: 75px;
 }
 
 .populaire-figure {
@@ -435,7 +436,8 @@ margin-left: 10px;
 /* logo la plus populaire */
 
 .fa-chart-line {
-  font-size: 20px;
+  font-size: 23px;
+  margin: 3px 25px 0 15px;
 }
 /* logo la plus populaire */
 
