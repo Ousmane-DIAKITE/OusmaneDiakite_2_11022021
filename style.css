@@ -403,12 +403,17 @@ padding: 20px 30px;
 margin: 0px 30px 0px 0px;
 }
 
-.la_plus_populaires h2 {
+.populaire-header {
 display: flex;
-align-content: center;
-margin: 10px;
-padding: auto;
-font-weight: 700;
+justify-content: flex-start;
+}
+
+.la_plus_populaires h2 {
+  display: flex;
+  align-content: center;
+  margin: 10px;
+  padding: auto;
+  font-weight: 700;
 }
 
 .populaire-figure {
