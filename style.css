@@ -404,16 +404,15 @@ margin: 0px 30px 0px 0px;
 }
 
 .populaire-header {
-display: flex;
-justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .la_plus_populaires h2 {
   display: flex;
-  align-content: center;
-  margin: 10px;
-  padding: auto;
-  font-weight: 700;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .populaire-figure {
@@ -428,12 +427,17 @@ justify-content: flex-start;
 .populaire-description {
 margin-top: 0px;
 margin: 15px;
-
 }
 
 .populaire-description p {
 margin-left: 10px;
 }
+/* logo la plus populaire */
+
+.fa-chart-line {
+  font-size: 25px;
+}
+/* logo la plus populaire */
 
 /* la plus populaires */
 
