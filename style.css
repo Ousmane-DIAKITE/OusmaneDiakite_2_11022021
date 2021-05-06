@@ -155,7 +155,8 @@ margin: 0 15px 0 15px;
 
 .info-icone-container {
 display: flex;
-margin-top: 50px;  
+
+margin: 50px 0 30px 30px;  
 }
 /* lOGO INFO */ 
 .info-icone { 
