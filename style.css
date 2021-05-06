@@ -115,6 +115,10 @@ margin: 10px;
 color: black;
 }
 
+.header-recherche {
+margin-left: 20px;
+}
+
 .icone-info-ville {
 background-color: #F2F2F2;
 border-radius: 15px 0 0 15px;
