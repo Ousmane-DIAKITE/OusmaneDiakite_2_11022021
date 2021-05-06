@@ -159,18 +159,18 @@ margin-top: 50px;
 }
 /* lOGO INFO */ 
 .info-icone { 
-width: 20px;
-height: 20px;
+width: 25px;
+height: 25px;
 display: flex;
 align-items: center;
 justify-content: center;
-border: 1px solid var(--lightgrey);
-border-radius: 10px;
+border: 1px solid rgb(197, 187, 187);
+border-radius: 15px;
 }
 
 .fa-info {
-color: var(--blue);
-font-size: 11px;  
+color:rgb(58, 58, 212);
+font-size: 15px;  
 }
 /* LOGO INFO */
 
