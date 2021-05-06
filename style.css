@@ -141,6 +141,13 @@ color: black;
 margin: 10px;
 }
 
+.search-form-button {
+height: 50px;
+width: 120px;
+background-color:#0065FC;
+  
+}
+
 /* RECHERCHE */
 
 /* INFO */
