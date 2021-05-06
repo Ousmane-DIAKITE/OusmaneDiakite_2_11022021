@@ -151,10 +151,7 @@ margin: 0 15px 0 15px;
 .sous-titre {
   margin: 20px;
 }
-.info {
-display: flex;
-justify-items: center;
-} 
+
 
 .info-icone-container {
 display: flex;
@@ -169,6 +166,11 @@ align-items: center;
 justify-content: center;
 border: 1px solid var(--lightgrey);
 border-radius: 10px;
+}
+
+.fa-info {
+color: var(--blue);
+font-size: 11px;  
 }
 /* LOGO INFO */
 
