@@ -145,7 +145,10 @@ margin: 10px;
 height: 50px;
 width: 120px;
 background-color:#0065FC;
-  
+color: white;
+border: unset;
+font-weight: bold;
+letter-spacing: 0.8px;  
 }
 
 /* RECHERCHE */
