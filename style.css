@@ -156,6 +156,10 @@ display: flex;
 justify-items: center;
 } 
 
+.info-icone-container {
+display: flex;
+margin-top: 50px;  
+}
 /* lOGO INFO */ 
 .info-icone { 
 width: 20px;
