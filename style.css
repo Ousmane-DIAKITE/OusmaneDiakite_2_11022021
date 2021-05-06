@@ -209,6 +209,7 @@ align-content: center;
 }
 .container-filtres {
 display: flex;
+margin-left: 20px;
 } 
 
 h2 {
