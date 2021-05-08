@@ -632,7 +632,11 @@ opacity: .5;
 transform: scale(1.1);
 opacity: .5;
 }
-.activites-figure-medium-photo-3:hover {}
+
+.activites-figure-medium-photo-3:hover {
+transform: scale(1.1);
+opacity: .5; 
+}
 .liste-filtres:hover {
 background-color: #0065FC;
 transform: scale(1.)
