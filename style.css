@@ -626,6 +626,7 @@ line-height: 23px;
 .activites-figure-medium-photo-1:hover {
 transform: scale(1.2);
 opacity: .6;
+color:#0065FC;
 }
 
 .activites-figure-medium-photo-2:hover {
