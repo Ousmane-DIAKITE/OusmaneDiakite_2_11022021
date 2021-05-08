@@ -530,6 +530,7 @@ border-top-left-radius: 30px;
 border-top-right-radius: 30px;
 width: 302px;
 height: 140px;
+object-fit: cover;
 }
 /* IMAGES */
 
