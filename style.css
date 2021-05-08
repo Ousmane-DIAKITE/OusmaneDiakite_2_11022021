@@ -152,7 +152,7 @@ letter-spacing: 1px;
 border-radius: 0 17px 17px 0;
 }
 
-.search-icone {
+.fa-search {
 display:none;
 }
 /* RECHERCHE */
@@ -215,6 +215,7 @@ margin-bottom: 0.5rem;
 font-size: 20px;
 margin: 10px;
 height: 44px;
+transition: 1s;
 }
 
 .filtres-section h2 {
@@ -338,6 +339,9 @@ align-items: center;
 justify-content: space-between;
 margin: 20px;
 list-style: none;
+opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .acitivite-description {
@@ -496,13 +500,14 @@ border-top-left-radius: 30px;
 border-top-right-radius: 30px;
 width: 307px;
 height: 399px;
-
+object-fit: cover;
 }
 .Activiter-imageB {
 border-top-left-radius: 30px;
 border-top-right-radius: 30px;
 width: 300px;
 height: 182px;
+object-fit: cover;
 }
 
 .Activiter-imageC {
@@ -610,4 +615,25 @@ font-size: 15px;
 list-style: none;
 text-decoration: none;
 line-height: 23px;
+}
+
+
+/* HOVER IMAGE */
+
+.activites-figure-medium-photo-1:hover {
+transform: scale(1.1);
+opacity: .5;
+}
+
+.liste-filtres:hover {
+background-color: #0065FC;
+transform: scale(1.)
+}
+button:hover {
+background-color: #0065FC;
+color: white;
+}
+
+button {
+transition: 1s;
 }
