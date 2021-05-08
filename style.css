@@ -629,7 +629,8 @@ opacity: .5;
 }
 
 .activites-figure-medium-photo-2:hover {
-
+transform: scale(1.1);
+opacity: .5;
 }
 .liste-filtres:hover {
 background-color: #0065FC;
