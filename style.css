@@ -625,6 +625,10 @@ line-height: 23px;
 
 /* HOVER */
 
+/* HOVER populaire image */
+
+/* HOVER activites image */
+
 .activites-figure-medium-photo-1:hover {
 transform: scale(1.2);
 opacity: .6;
@@ -654,6 +658,9 @@ transform: scale(1.1);
 opacity: .6;
 color:#0065FC;
 }
+
+/* HOVER activites image */
+
 
 .liste-filtres:hover {
 background-color: #0065FC;
