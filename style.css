@@ -631,7 +631,7 @@ opacity: .6;
 .activites-figure-medium-photo-2:hover {
 transform: scale(1.2);
 opacity: .6;
-
+color:#0065FC;
 }
 
 .activites-figure-medium-photo-3:hover {
@@ -643,7 +643,7 @@ color:#0065FC;
 .activites-figure-medium-photo-4:hover {
 transform: scale(1.2);
 opacity: .6;
-
+color:#023f9b;
 }
 
 .activites-figure-big-photo:hover {
