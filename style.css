@@ -627,7 +627,10 @@ line-height: 23px;
 
 /* HOVER populaire image */
 
-
+.populaire-figure:hover {
+  transform: scale(1.1);
+  opacity: .6;
+}
 
 /* HOVER activites image */
 
