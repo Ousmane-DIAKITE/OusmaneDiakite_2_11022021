@@ -482,7 +482,8 @@ margin-left: 10px;
 border-top-right-radius: 30px;
 border-top-left-radius: 30px;  
 width: 242px;
-height: 126px;   
+height: 126px;
+object-fit: cover;
 }
 
 .Populaire-image {
