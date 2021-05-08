@@ -643,8 +643,9 @@ transform: scale(1.1);
 opacity: .5;  
 }
 
-.activites-figure-big-photo {
-
+.activites-figure-big-photo:hover {
+transform: scale(1.1);
+opacity: .5;
 }
 
 .liste-filtres:hover {
