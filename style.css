@@ -621,31 +621,31 @@ line-height: 23px;
 }
 
 
-/* HOVER IMAGE */
+/* HOVER */
 
 .activites-figure-medium-photo-1:hover {
-transform: scale(1.1);
-opacity: .5;
+transform: scale(1.2);
+opacity: .6;
 }
 
 .activites-figure-medium-photo-2:hover {
-transform: scale(1.1);
-opacity: .5;
+transform: scale(1.2);
+opacity: .6;
 }
 
 .activites-figure-medium-photo-3:hover {
-transform: scale(1.1);
-opacity: .5; 
+transform: scale(1.2);
+opacity: .6; 
 }
 
 .activites-figure-medium-photo-4:hover {
-transform: scale(1.1);
-opacity: .5;  
+transform: scale(1.2);
+opacity: .6;  
 }
 
 .activites-figure-big-photo:hover {
 transform: scale(1.1);
-opacity: .5;
+opacity: .6;
 }
 
 .liste-filtres:hover {
