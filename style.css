@@ -663,7 +663,9 @@ text-decoration: none;
 
 .signup-navbar:hover {
 border: 5px solid #ebedf1; 
-border-radius: 2rem;
+border-radius: 2rem;
+background-color: #ebedf1;
+
 }
 
 /* Hover navbar */
