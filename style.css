@@ -62,13 +62,13 @@ list-style: none;
 }
 
 .nav-bar .link-navbar {
-  display: flex;
-  justify-content: center;
-  width: 150px;
-  text-decoration: none;
-  margin: 20px 0 20px 0;
-  font-size: 18px;
-  font-family: 'raleway', sans-serif;
+display: flex;
+justify-content: center;
+width: 150px;
+text-decoration: none;
+margin: 20px 0 20px 0;
+font-size: 18px;
+font-family: 'raleway', sans-serif;
 }
 
 .link-navbar {
