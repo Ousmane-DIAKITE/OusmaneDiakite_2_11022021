@@ -25,7 +25,7 @@ background-color: white;
 }
 
 body {
-  
+
 }
 
 /* logo */
@@ -34,7 +34,8 @@ body {
 position: static;
 width: 90px;
 height: 60px;
-margin:0 15px 0 25px;
+margin-left: 25px;
+
 }
 
 /* logo */
@@ -652,7 +653,7 @@ border-top: 3px solid #0065FC;
 color: #0065FC;
 padding-top: 1.5rem;
 margin-top: 0px;
-transition: 0.3s;
+position: unset;
 }
 
 .link-navbar
