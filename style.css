@@ -628,9 +628,12 @@ line-height: 23px;
 /* HOVER navbar */ 
 
 .link-navbar:hover {
-border-top: 2px solid #0065FC;
+border-top: 3px solid #0065FC;
+color: #0065FC;
 } 
-
+a:hover {
+text-decoration: none;
+}
 /* Hover navbar */
 
 /* HOVER populaire image */
