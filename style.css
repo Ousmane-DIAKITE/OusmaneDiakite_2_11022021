@@ -644,9 +644,16 @@ line-height: 23px;
 .link-navbar:hover {
 border-top: 3px solid #0065FC;
 color: #0065FC;
+padding-top: 1.5rem;
+margin-top: 0px;
+
 }
 
+.link-navbar a:hover 
+
+.link-navbar
 a:hover {
+margin-top: 20px;
 text-decoration: none;
 }
 
