@@ -652,7 +652,7 @@ border-top: 3px solid #0065FC;
 color: #0065FC;
 padding-top: 1.5rem;
 margin-top: 0px;
-
+transition: 0.3s;
 }
 
 .link-navbar
@@ -726,6 +726,7 @@ color:#0065FC;
 .liste-filtres:hover {
 background-color: #0065FC;
 color:white;
+
 }
 
 button:hover {
