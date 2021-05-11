@@ -625,6 +625,11 @@ line-height: 23px;
 
 /* HOVER */
 
+/* HOVER navbar */ 
+
+
+/* Hover navbar */
+
 /* HOVER populaire image */
 
 .populaire-figure:hover {
@@ -682,13 +687,12 @@ color:#0065FC;
 
 .liste-filtres:hover {
 background-color: #0065FC;
-transform: scale(1.)
+color:white;
 }
 button:hover {
-background-color: #0065FC;
-color: white;
+
 }
 
 button {
-transition: 1s;
+
 }
