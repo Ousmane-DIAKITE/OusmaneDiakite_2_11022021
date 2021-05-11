@@ -71,6 +71,10 @@ list-style: none;
   font-family: 'raleway', sans-serif;
 }
 
+.link-navbar {
+color: black;
+}
+
 .nav-bar a {
 
 text-decoration: none;
