@@ -661,7 +661,9 @@ margin-top: 20px;
 text-decoration: none;
 }
 
-
+.signup-navbar:hover {
+border: 5px solid #ebedf1; 
+}
 
 /* Hover navbar */
 
