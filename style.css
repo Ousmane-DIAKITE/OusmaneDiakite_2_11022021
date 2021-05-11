@@ -627,6 +627,9 @@ line-height: 23px;
 
 /* HOVER navbar */ 
 
+.link-navbar:hover {
+  
+} 
 
 /* Hover navbar */
 
