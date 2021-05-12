@@ -746,8 +746,22 @@ color:#0065FC;
 
 /* HOVER footer */
 
- {
-
+.liste-footer-left
+li:hover {
+transform: scale(1.1);
+opacity: .6;
+list-style: none;
+text-decoration: none;
 }
+
+.liste-footer-center
+li:hover {
+transform: scale(1.1);
+opacity: .6;
+list-style: none;
+text-decoration: none;
+}
+
+
 
 /* HOVER  footer */
