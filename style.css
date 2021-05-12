@@ -754,7 +754,7 @@ list-style: none;
 text-decoration: none;
 }
 
-.liste-footer-center
+.liste-footer-central
 li:hover {
 transform: scale(1.1);
 opacity: .6;
@@ -762,6 +762,12 @@ list-style: none;
 text-decoration: none;
 }
 
-
+.liste-footer-right
+li:hover {
+transform: scale(1.1);
+opacity: .6;
+list-style: none;
+text-decoration: none;
+}
 
 /* HOVER  footer */
