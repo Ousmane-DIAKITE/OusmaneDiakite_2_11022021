@@ -748,26 +748,23 @@ color:#0065FC;
 
 .liste-footer-left
 li:hover {
-transform: scale(1.1);
-opacity: .6;
-list-style: none;
-text-decoration: none;
+text-decoration: underline;
+color:#0065FC;
+transition: 0.1s;
 }
 
 .liste-footer-central
 li:hover {
-transform: scale(1.1);
-opacity: .6;
-list-style: none;
-text-decoration: none;
+text-decoration: underline;
+color:#0065FC;
+transition: 0.1s;
 }
 
 .liste-footer-right
 li:hover {
-transform: scale(1.1);
-opacity: .6;
-list-style: none;
-text-decoration: none;
+text-decoration: underline;
+color:#0065FC;
+transition: 0.1s;
 }
 
 /* HOVER  footer */
