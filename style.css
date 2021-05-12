@@ -692,7 +692,7 @@ opacity: .6;
 
 /* HOVER Hebergements image */
 
-.Hebergements-image:hover {
+.hebergements-figure:hover {
 transform: scale(1.1);
 opacity: .6;  
 }
