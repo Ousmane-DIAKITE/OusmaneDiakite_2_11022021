@@ -735,10 +735,14 @@ color:#0065FC;
 
 /* HOVER activites image */
 
+/* HOVER button */
+
 button:hover {
 transform: scale(1.2);
 color:#0065FC;
 }
+
+/* HOVER button */
 
 button {
 
