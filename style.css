@@ -724,15 +724,9 @@ color:#0065FC;
 
 /* HOVER activites image */
 
-.liste-filtres:hover {
-background-color: #0065FC;
-color:white;
-
-}
 
 button:hover {
-background-color: #0065FC;
-
+color:#0065FC;
 }
 
 button {
