@@ -692,8 +692,9 @@ opacity: .6;
 
 /* HOVER Hebergements image */
 
-.Hebergements-image {
-  
+.Hebergements-image:hover {
+transform: scale(1.1);
+opacity: .6;  
 }
 
 
