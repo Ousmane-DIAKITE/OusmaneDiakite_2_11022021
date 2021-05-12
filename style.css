@@ -726,6 +726,7 @@ color:#0065FC;
 
 
 button:hover {
+transform: scale(1.2);
 color:#0065FC;
 }
 
