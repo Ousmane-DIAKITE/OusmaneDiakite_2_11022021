@@ -651,7 +651,7 @@ line-height: 23px;
 }
 
 
-/* HOVER */
+/*-----------------------Code pour format de HOVER-----------------*/
 
 /* HOVER navbar */ 
 
@@ -775,3 +775,15 @@ transition: 0.1s;
 }
 
 /* HOVER  footer */
+
+/*-----------------------Code pour format de HOVER-----------------*/
+
+/*-----------------------Code pour format de smartphone-----------------*/
+
+@media(max-width: 767px)
+{
+
+}
+
+
+/*-----------------------Code pour format de smartphone-----------------*/
