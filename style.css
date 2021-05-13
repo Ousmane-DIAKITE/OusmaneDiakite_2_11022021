@@ -118,7 +118,7 @@ font-weight: 700;
 p, 
 form{
 height: 20px;
-margin: 10px;
+margin: 25px 15px 25px 15px;
 color: black;
 }
 
@@ -780,10 +780,9 @@ transition: 0.1s;
 
 /*-----------------------Code pour format de smartphone-----------------*/
 
-@media(max-width: 767px)
-{
-
+@media screen and (max-width: 767px)
+ 
+.nav-bar {
+display:
 }
 
-
-/*-----------------------Code pour format de smartphone-----------------*/
