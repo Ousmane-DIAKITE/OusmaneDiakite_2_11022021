@@ -570,11 +570,11 @@ margin: 10px;
 }
 
 .star-icone[data-active="true"] {
-color: rgb(66, 93, 216);
+color: #0065FC;
 }
 
 .star-icone[data-active="false"] {
-color: rgb(214, 199, 199);
+color: #ebe9e9;
 }
 
 /* ICONE STAR */
