@@ -686,16 +686,22 @@ color: black;
 
 /* HOVER recherche */
 
-/* HOVER populaire image */
+/* HOVER stars */
+
+
+
+/* HOVER stars */
+
+/* HOVER populaire */
 
 .populaire-figure:hover {
 transform: scale(1.05);
 opacity: .6;
 }
 
-/* HOVER populaire image */
+/* HOVER populaire */
 
-/* HOVER Hebergements image */
+/* HOVER Hebergements */
 
 .hebergements-figure:hover {
 transform: scale(1.05);
@@ -703,7 +709,7 @@ opacity: .6;
 }
 
 
-/* HOVER Hebergements image */
+/* HOVER Hebergements */
 
 
 /* HOVER activites image */
