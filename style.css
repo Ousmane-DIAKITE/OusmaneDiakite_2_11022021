@@ -118,7 +118,7 @@ font-weight: 700;
 p, 
 form{
 height: 20px;
-margin: 25px 15px 25px 15px;
+margin: 10px;
 color: black;
 }
 
@@ -659,13 +659,11 @@ line-height: 23px;
 border-top: 3px solid #0065FC;
 color: #0065FC;
 padding-top: 1.5rem;
-margin-top: 0px;
-position: unset;
+margin: 0;
 }
 
 .link-navbar
 a:hover {
-margin-top: 20px;
 text-decoration: none;
 }
 
@@ -780,9 +778,8 @@ transition: 0.1s;
 
 /*-----------------------Code pour format de smartphone-----------------*/
 
-@media screen and (max-width: 767px)
- 
-.nav-bar {
-display:
-}
 
+ 
+
+
+/*-----------------------Code pour format de smartphone-----------------*/
