@@ -740,14 +740,18 @@ color:#0065FC;
 
 /* HOVER activites image */
 
-/* HOVER button */
+/* HOVER section filtres */
+
+.liste-filtres i:hover {
+color: black;
+}
 
 button:hover {
 transform: scale(1.2);
 color:#0065FC;
 }
 
-/* HOVER button */
+/* HOVER section filtres */
 
 /* HOVER footer */
 
