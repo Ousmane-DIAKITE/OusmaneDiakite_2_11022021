@@ -100,7 +100,7 @@ text-decoration: none;
 .signup-navbar {
 font-family: 'raleway', sans-serif;  
 font-weight: bold;
-color:blue;
+color:#0065FC;
 text-decoration: none; 
 padding: 0;
 margin: 20px;
@@ -198,7 +198,7 @@ border-radius: 15px;
 }
 
 .fa-info {
-color:rgb(58, 58, 212);
+color:#0065FC;
 font-size: 15px;  
 }
 /* LOGO INFO */
@@ -688,7 +688,9 @@ color: black;
 
 /* HOVER stars */
 
+.star-icone {
 
+}
 
 /* HOVER stars */
 
