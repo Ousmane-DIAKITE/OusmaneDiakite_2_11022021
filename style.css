@@ -834,7 +834,9 @@ align-items: center;
 }
 .populaire-figure {
 align-content: center;
-
+}
+.hebergements {
+  border: none;
 }
 
 }
