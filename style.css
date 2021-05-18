@@ -117,7 +117,7 @@ font-weight: 700;
 
 .header-recherche,
 p {
-margin-left: 10px;
+margin-left: 15px;
 }
 
 .icone-info-ville {
@@ -159,7 +159,7 @@ display:none;
 
 .search-form {
   display: flex;
-  margin: 25px 15px 25px 25px;
+  margin: 25px 15px 25px 15px;
 }
 /* RECHERCHE */
 
