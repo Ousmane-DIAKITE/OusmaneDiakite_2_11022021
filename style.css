@@ -838,6 +838,8 @@ align-content: center;
 .hebergements {
   border: none;
   margin: 0;
+  border-radius:0;
+
 }
 
 }
