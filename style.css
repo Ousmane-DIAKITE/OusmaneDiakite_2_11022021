@@ -793,8 +793,9 @@ transition: 0.1s;
 @media (max-width: 500px) {
 
 body {
-  
+  background: blueviolet;
 }
+
 
 
 }
@@ -805,10 +806,13 @@ body {
 
 /*-----------------------Code pour format de tablette-----------------*/
 
-@media (min-width:501px) and (max-width:767px) {
+@media (min-width:501px) and (max-width:769px) {
 
 body {
-  
+  background: blue;
+}
+.filtres-section {
+  display: flex;
 }
 
 }
