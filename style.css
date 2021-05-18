@@ -811,6 +811,9 @@ body {
 body {
   background: blue;
 }
+.filtres-section{
+  display: flex;
+}
 .liste-filtres{
 width: 250px;
 margin-right: 25px;
