@@ -814,10 +814,12 @@ body {
 .filtres-section{
   display: flex;
 }
+.container-filtres
 .liste-filtres{
 width: 250px;
 margin-right: 25px;
 align-items: center;
+
 }
 
 }
