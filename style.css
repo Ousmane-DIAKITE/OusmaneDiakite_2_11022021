@@ -805,5 +805,11 @@ body {
 
 /*-----------------------Code pour format de tablette-----------------*/
 
+@media (min-width:501px) and (max-width:767px) {
 
+body {
+  
+}
+
+}
 /*-----------------------Code pour format de tablette-----------------*/
