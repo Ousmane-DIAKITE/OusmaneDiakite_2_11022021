@@ -114,13 +114,6 @@ font-weight: 700;
 
 /* RECHERCHE */
 
-.recherche h1, 
-p, 
-form{
-height: 20px;
-margin: 10px;
-color: black;
-}
 
 .header-recherche {
 margin-left: 20px;
@@ -163,7 +156,10 @@ border-radius: 0 17px 17px 0;
 .fa-search {
 display:none;
 }
-
+.search-form {
+  display: flex;
+  margin: 25px 15px 25px 15px;
+}
 /* RECHERCHE */
 
 /* INFO */
