@@ -786,11 +786,18 @@ transition: 0.1s;
 
 /* HOVER  footer */
 
-/*-----------------------Code pour format de HOVER-----------------*/
+/*-----------------------Code pour format de HOVER FIN-----------------*/
 
 /*-----------------------Code pour format de smartphone-----------------*/
 
+@media (max-width: 500px) {
 
+body {
+  background: #0065FC;
+}
+
+
+}
  
 
 
