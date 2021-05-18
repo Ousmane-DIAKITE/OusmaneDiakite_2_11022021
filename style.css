@@ -837,6 +837,7 @@ align-content: center;
 }
 .hebergements {
   border: none;
+  margin: 0;
 }
 
 }
