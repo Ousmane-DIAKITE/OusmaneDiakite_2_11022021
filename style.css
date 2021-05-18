@@ -814,7 +814,10 @@ body {
 .filtres-section{
   display: flex;
 }
-.container-filtres
+.container-filtres{
+  flex-wrap: wrap;
+  flex-direction: row;
+}
 .liste-filtres{
 width: 250px;
 margin-right: 25px;
