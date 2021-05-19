@@ -810,6 +810,7 @@ body {
 }
 .filtres-section {
   display: flex;
+  margin: 0 0 20px 0
 }
 .container-filtres {
   flex-wrap: wrap;
