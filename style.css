@@ -968,7 +968,7 @@ align-content: center;
                   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 50%;
+  width: 45%;
   height: auto;
   border: 5px solid white;
   border-radius: 30px;
