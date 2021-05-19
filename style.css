@@ -982,8 +982,9 @@ align-content: center;
 height: auto;
 margin: 0;             
  }
- .header-recherche {
-   font-size: 2rem;
+ .header-recherche h1 {
+   font-size: 1.6rem;
+   font-weight: 900;
  }
  .header-recherche p {
 margin-left: 15px;
