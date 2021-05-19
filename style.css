@@ -830,7 +830,7 @@ align-items: center;
   border: none;
   margin: 0;
   border-radius: 0;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 .populaire-figure {
 align-content: center;
@@ -839,7 +839,13 @@ align-content: center;
   border: none;
   margin: 0;
   border-radius:0;
-
+}
+.section-hebergements{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
 }
 
 }
