@@ -808,14 +808,14 @@ body {
 body {
   background: blue;
 }
-.filtres-section{
+.filtres-section {
   display: flex;
 }
-.container-filtres{
+.container-filtres {
   flex-wrap: wrap;
   flex-direction: row;
 }
-.liste-filtres{
+.liste-filtres {
 width: 250px;
 margin-right: 25px;
 align-items: center;
@@ -873,17 +873,18 @@ align-content: center;
     flex-direction: column;
     }
     .section-activites {
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 35px;
-      margin-left: 5px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+  }
       }
       
       .Activiter-imageA {
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
         width: 100%;
-        height: 75%;
+        height: 85%;
         object-fit: cover;
         }
         .Activiter-imageB {
@@ -974,12 +975,11 @@ align-content: center;
   margin: 10px 5px 15px 10px;
   background-color: white;
                 }
+
                 .activites-cards-medium-groupe {
-                  display: inline-block;
-  flex-direction: column;
-  width: 65%;
-  height: 100px; }
-                  }
+                  
+ }
+}
                   
                   
 
