@@ -980,9 +980,19 @@ align-content: center;
                 .activites-cards-medium-groupe {
                   width: 325px;
 height: auto;
-margin: 0;
-                  
+margin: 0;             
  }
+ .header-recherche {
+   font-size: 2rem;
+ }
+ .header-recherche p {
+margin-left: 15px;
+font-size: 1.2rem;
+}
+
+
+
+
 }
                   
                   
