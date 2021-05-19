@@ -806,7 +806,7 @@ body {
 @media (min-width:501px) and (max-width:769px) {
 
 body {
-  background: blue;
+ 
 }
 .filtres-section {
   display: flex;
@@ -835,11 +835,17 @@ align-items: center;
 }
 .populaire-figure {
 align-content: center;
+width: 500px;
 }
+.Populaire-image {
+  width: 200px; 
+  }
+
 .hebergements {
   border: none;
   margin: 0;
   border-radius:0;
+  background: white;
 }
 .section-hebergements{
   display: flex;
