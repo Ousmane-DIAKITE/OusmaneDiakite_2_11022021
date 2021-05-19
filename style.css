@@ -917,6 +917,15 @@ align-content: center;
           object-fit: cover;
           }
           
-        
-}
+          .activites-figure-medium-photo-1 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 47%;
+            height: 244px;
+            border: 5px solid white;
+            border-radius: 30px;
+            margin: 10px 5px 15px 10px;
+            background-color: white;
+            }
 /*-----------------------Code pour format de tablette-----------------*/
