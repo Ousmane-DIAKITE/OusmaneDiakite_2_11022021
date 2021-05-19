@@ -924,7 +924,7 @@ align-content: center;
             flex-direction: row;
             flex-wrap: wrap;
             width: 100%;
-            height: 244px;
+            height: 200px;
             border: 5px solid white;
             border-radius: 30px;
             margin: 10px 5px 15px 10px;
@@ -977,6 +977,9 @@ align-content: center;
                 }
 
                 .activites-cards-medium-groupe {
+                  width: 325px;
+height: auto;
+margin: 0;
                   
  }
 }
