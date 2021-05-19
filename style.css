@@ -862,6 +862,23 @@ align-content: center;
     height: 126px;
     object-fit: cover;
     }
-    
+  .afficher-plus   {
+    margin: 10px 20px 20px 5px;
+
+  }
+
+
+  .activites {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    }
+    .section-activites {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 35px;
+      margin-left: 5px;
+      }
+      
 }
 /*-----------------------Code pour format de tablette-----------------*/
