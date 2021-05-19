@@ -976,12 +976,15 @@ align-content: center;
   margin: 20px 15px 15px 0;
   background-color: white;
                 }
-
-                .activites-cards-medium-groupe {
+.activites-cards-medium-groupe {
                   width: 325px;
 height: auto;
 margin: 0;             
  }
+ .header-activites {
+  margin: 35px 0 5px 20px;
+  font-weight: 700;
+}
  .header-recherche h1 {
    font-size: 1.6rem;
    font-weight: 900;
