@@ -431,6 +431,7 @@ border: 5px solid white;
 border-radius: 30px;
 margin: 0px 0px 30px 0px;
 background-color: white;
+box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 .hebergements-header {
@@ -473,6 +474,7 @@ border: 5px solid white;
 border-radius: 40px;
 margin: 25px 0px 10px 0px;
 background-color: white;
+box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 .populaire-description {
@@ -790,7 +792,7 @@ transition: 0.1s;
 @media (max-width: 500px) {
 
 body {
-  background: blueviolet;
+ 
 }
 .nav-bar {
   margin-bottom: 25px;
@@ -839,6 +841,7 @@ body {
   border-radius: 40px;
   margin: 25px 0px 20px 10px;
   background-color: white;
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
 }  
 .hebergements {
   display: flex;
@@ -870,6 +873,7 @@ body {
   border-radius: 30px;
   margin: 0px 0px 30px 0px;
   background-color: white;
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
 }
 .Hebergements-image {
   border-top-right-radius: 30px;
@@ -879,7 +883,44 @@ body {
   object-fit: cover;
 }
 
-
+.activites-figure-medium-photo-1 {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
+}
+.activites-figure-medium-photo-2 {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2)
+}
+.activites-figure-medium-photo-3 {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2)
+}
+.activites-figure-medium-photo-4 {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2)
+}
+.activites {
+display: flex;
+flex-direction: column;
+}
+.section-activites{
+  display: flex;
+  flex-direction: column;
+}
+.activites-figure-big-photo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 89%;
+  height: 250px;
+  border: 5px solid white;
+  border-radius: 30px;
+  margin: 20px 15px 15px 0;
+  background-color: white
 }
  
 
