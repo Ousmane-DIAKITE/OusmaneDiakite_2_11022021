@@ -670,8 +670,8 @@ footer {
 /* HOVER recherche */
 
 .search-form-button:hover {
-transform: scale(1.2);
-color: black;
+  transform: scale(1.2);
+  color: black;
 }
 
 /* HOVER recherche */
@@ -679,7 +679,7 @@ color: black;
 /* HOVER stars */
 
 .star-icone:hover {
-color: #ebe9e9;
+  color: #ebe9e9;
 }
 
 /* HOVER stars */
@@ -687,8 +687,8 @@ color: #ebe9e9;
 /* HOVER populaire */
 
 .populaire-figure:hover {
-transform: scale(1.05);
-opacity: .6;
+  transform: scale(1.05);
+  opacity: .6;
 }
 
 /* HOVER populaire */
@@ -696,8 +696,8 @@ opacity: .6;
 /* HOVER Hebergements */
 
 .hebergements-figure:hover {
-transform: scale(1.05);
-opacity: .6;  
+  transform: scale(1.05);
+  opacity: .6;  
 }
 
 
@@ -707,33 +707,33 @@ opacity: .6;
 /* HOVER activites image */
 
 .activites-figure-medium-photo-1:hover {
-transform: scale(1.1);
-opacity: .6;
-color:#0065FC;
+  transform: scale(1.1);
+  opacity: .6;
+  color:#0065FC;
 }
 
 .activites-figure-medium-photo-2:hover {
-transform: scale(1.1);
-opacity: .6;
-color:#0065FC;
+  transform: scale(1.1);
+  opacity: .6;
+  color:#0065FC;
 }
 
 .activites-figure-medium-photo-3:hover {
-transform: scale(1.1);
-opacity: .6; 
-color:#0065FC;
+  transform: scale(1.1);
+  opacity: .6; 
+  color:#0065FC;
 }
 
 .activites-figure-medium-photo-4:hover {
-transform: scale(1.1);
-opacity: .6;
-color:#0065FC;
+  transform: scale(1.1);
+  opacity: .6;
+  color:#0065FC;
 }
 
 .activites-figure-big-photo:hover {
-transform: scale(1.05);
-opacity: .6;
-color:#0065FC;
+  transform: scale(1.05);
+  opacity: .6;
+  color:#0065FC;
 }
 
 /* HOVER activites image */
@@ -741,37 +741,34 @@ color:#0065FC;
 /* HOVER section filtres */
 
 .liste-filtres i:hover {
-color: black;
+  color: black;
 }
 
 button:hover {
-transform: scale(1.2);
-color:#0065FC;
+  transform: scale(1.2);
+  color:#0065FC;
 }
 
 /* HOVER section filtres */
 
 /* HOVER footer */
 
-.liste-footer-left
-li:hover {
-text-decoration: underline;
-color:#0065FC;
-transition: 0.1s;
+.liste-footer-left li:hover {
+  text-decoration: underline;
+  color:#0065FC;
+  transition: 0.1s;
 }
 
-.liste-footer-central
-li:hover {
-text-decoration: underline;
-color:#0065FC;
-transition: 0.1s;
+.liste-footer-central li:hover {
+  text-decoration: underline;
+  color:#0065FC;
+  transition: 0.1s;
 }
 
-.liste-footer-right
-li:hover {
-text-decoration: underline;
-color:#0065FC;
-transition: 0.1s;
+.liste-footer-right li:hover {
+  text-decoration: underline;
+  color:#9c9c9c;
+  transition: 0.1s;
 }
 
 /* HOVER  footer */
@@ -798,25 +795,25 @@ body {
   align-items: center;
   }
   .container-filtres {
-    display: inline-block;
-    margin-left: 20px;
+  display: inline-block;
+  margin-left: 20px;
   } 
   .container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   }
   .la_plus_populaires {
-    display: flex;
-    flex-direction: column;
-    border-color: #F2F2F2;
-    background-color: #F2F2F2;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 20px;
-    margin-bottom: 0;
-    border: none;
-    border-radius: 0;
-    align-content: center;
+  display: flex;
+  flex-direction: column;
+  border-color: #F2F2F2;
+  background-color: #F2F2F2;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0;
+  align-content: center;
 }
 .populaire-header {
   display: flex;
@@ -836,17 +833,17 @@ body {
 }  
 .hebergements {
   display: flex;
-    flex-direction: column;
-    border-color: #F2F2F2;
-    background-color: #F2F2F2;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 30px;
-    margin-bottom: 20px;
-    border: none;
-    border-radius: 0;
-    align-content: center;
-    background-color: white;
+  flex-direction: column;
+  border-color: #F2F2F2;
+  background-color: #F2F2F2;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 0;
+  align-content: center;
+  background-color: white;
 }
 .hebergements-header {
   margin: 15px;  
