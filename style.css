@@ -359,7 +359,7 @@ h1 {
 
 .acitivite-description {
   margin: 12px 10px 12px 20px;
-  box-shadow: 6px black;
+  box-shadow: 6px rgb(0, 0, 0);
   font-family: 'Raleway', sans-serif;
   font: bold;
   font-weight: bolder;
@@ -655,6 +655,7 @@ footer {
 
 .link-navbar a:hover {
   text-decoration: none;
+
 }
 
 .signup-navbar:hover {
@@ -786,7 +787,9 @@ body {
 .nav-bar {
   margin-bottom: 25px;
 }
-
+.filtres-section h2 {
+  margin-top: 0;
+}
 .filtres-section {
   display: flex;
   margin: 0 0 20px 0
@@ -936,11 +939,7 @@ body {
 
 /*-----------------------Code pour format de tablette-----------------*/
 
-@media (min-width:501px) and (max-width:769px) {
-
-body {
- 
-}
+@media (min-width:768px) and (max-width:1024px) {
 
 .filtres-section {
   display: flex;
@@ -1146,12 +1145,8 @@ body {
 .header-recherche p {
   margin-left: 15px;
   font-size: 1.2rem;
-}
-
 
 }
-                  
-                  
 
 
-/*-----------------------Code pour format de tablette-----------------*/
+}
