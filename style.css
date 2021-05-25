@@ -950,6 +950,9 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
 }
+.filtres-section h2 {
+  margin-top: 0;
+}
 
 .liste-filtres {
   width: 250px;
