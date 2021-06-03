@@ -24,10 +24,6 @@
     background-color: white;
   }
   
-  body {
-  
-  }
-  
   /* logo */
   
   .logo {
@@ -357,9 +353,9 @@
     transition: .3s ease-in-out;
   }
   
-  .acitivite-description {
+  .activite-description {
     margin: 12px 10px 12px 20px;
-    box-shadow: 6px rgb(0, 0, 0);
+    box-shadow: 6px 6px rgb(0, 0, 0);
     font-family: 'Raleway', sans-serif;
     font: bold;
     font-weight: bolder;
@@ -780,9 +776,7 @@
   
   @media screen and (max-width: 500px) {
   
-  body {
-   
-  }
+
   /* HOVER navbar */ 
   
   .link-navbar:hover {
@@ -1137,9 +1131,9 @@
     margin-bottom: 5px;
   }
   
-  .acitivite-description {
+  .activite-description {
     margin: 12px 10px 12px 20px;
-    box-shadow: 6px rgb(0, 0, 0);
+    box-shadow: 6px 6px rgb(0, 0, 0);
     font-family: 'Raleway', sans-serif;
     font: bold;
     font-weight: bolder;
@@ -1220,7 +1214,7 @@
   
   /*-----------------------Code pour format de tablette-----------------*/
   
-  @media screen and (min-width:500px) and (max-width:1024px) {
+  @media screen and (min-width:767px) and (max-width:1366px) {
   
     .filtres-section h2 {
       margin-top: 0;
