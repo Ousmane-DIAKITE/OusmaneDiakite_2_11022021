@@ -8,4 +8,4 @@
 <p>Voici la maquette ci dessous:</p>
 
 ![Desktop - 1](https://user-images.githubusercontent.com/68069850/94693757-61dd2e00-0334-11eb-8a2a-470c984cac35.png)
-Ma Maquette est disponible sous ce lien: [https://github.com/Ousmane-DIAKITE/OusmaneDiakite_2_11022021.git]
+Ma Maquette est disponible sur ce lien: [https://github.com/Ousmane-DIAKITE/OusmaneDiakite_2_11022021.git]
