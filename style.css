@@ -11,7 +11,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
   }
   
   h1, 
@@ -29,7 +28,7 @@
   
   .logo {
     position: static;
-    width: 110px;
+    width: 90px;
     height: 60px;
     margin-left: 25px;
     object-fit: contain;
@@ -356,7 +355,7 @@
   
   .activite-description {
     margin: 12px 10px 12px 20px;
-    box-shadow: 6px 6px rgb(0, 0, 0);
+    box-shadow: 6px 6px white;
     font-family: 'Raleway', sans-serif;
     font: bold;
     font-weight: bolder;
@@ -1134,7 +1133,7 @@
   
   .activite-description {
     margin: 12px 10px 12px 20px;
-    box-shadow: 6px 6px rgb(0, 0, 0);
+    box-shadow: 6px 6px white;
     font-family: 'Raleway', sans-serif;
     font: bold;
     font-weight: bolder;
