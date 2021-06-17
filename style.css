@@ -310,8 +310,8 @@
     font-weight:bold;
     text-decoration: none;
     color: black;
-    margin-top: 5px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
   }
   
   .activites {
@@ -500,7 +500,6 @@
     display: flex;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    height: 100%;
     width: 124px;   
     object-fit: cover; 
   }
