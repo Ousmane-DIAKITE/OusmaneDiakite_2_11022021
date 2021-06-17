@@ -217,7 +217,7 @@
   }
   
   .filtres-section h2 {
-    align-self: center;
+    align-items: center;
     margin-left: 30px;
   }
   
@@ -1231,7 +1231,7 @@
     .filtres-section {
       display: flex;
       flex-wrap: wrap;
-      flex-wrap: wrap;
+      flex-
       margin: 0 0 20px 0;
     }
     
