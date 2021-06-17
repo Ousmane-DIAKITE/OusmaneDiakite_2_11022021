@@ -1230,7 +1230,9 @@
     }
     .filtres-section {
       display: flex;
-      margin: 0 0 20px 0
+      flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin: 0 0 20px 0;
     }
     
     .liste-filtres {
