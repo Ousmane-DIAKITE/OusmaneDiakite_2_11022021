@@ -197,8 +197,8 @@
   /* FILTRE */
   
   .filtres-section {
-    flex-wrap: wrap;
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap; 
     color: black;
     margin: 55px 0 20px 0;
   }
@@ -217,6 +217,7 @@
   }
   
   .filtres-section h2 {
+    align-self: center;
     margin-left: 30px;
   }
   
@@ -900,12 +901,13 @@
   
   .filtres-section {
     display: flex;
-    flex-wrap: wrap;
     margin: 0 0 20px 0
   }
   
   .liste-filtres {
+    
     margin-right: 25px;
+    align-items: center;
   }
   
   .container-filtres {
@@ -1202,7 +1204,19 @@
   }
   
   
-   
+   /*----------------------code pour format desktop plus de 1366px---------*/
+
+   @media screen and (min-width:1360px) {
+    .filtres-section h2 {
+      margin-top: 0;
+    }
+    .filtres-section {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin: 0 0 20px 0
+    } 
+   }
   
   
   /*-----------------------Code pour format de smartphone-----------------*/
