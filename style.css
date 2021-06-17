@@ -1209,7 +1209,7 @@
    @media screen and (min-width:1360px) {
     .filtres-section h2 {
       margin-top: 0;   
-      align-self: center;
+      
     }
     .filtres-section {
       display: flex;
@@ -1217,7 +1217,7 @@
       margin: 0 0 20px 0;
     } 
    }
-   
+
   
   
   /*-----------------------Code pour format de smartphone-----------------*/
