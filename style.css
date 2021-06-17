@@ -1204,9 +1204,9 @@
   }
   
   
-   /*----------------------code pour format desktop plus de 1366px---------*/
+   /*----------------------code pour format desktop plus de 1361px---------*/
 
-   @media screen and (min-width:1360px) {
+   @media screen and (min-width:1361px) {
     .filtres-section h2 {
       margin-top: 0;   
       
@@ -1216,6 +1216,29 @@
       flex-wrap: wrap;
       margin: 0 0 20px 0;
     } 
+    .container {
+      flex-direction: row-reverse;
+    }
+    .hebergements {
+      display: flex;
+      flex-direction: column;
+      flex: 3;
+      border-radius: 10px;
+      border-color: #F2F2F2;
+      background-color: #F2F2F2;
+      margin: 0px 30px;
+      padding: 0px 30px;
+    }
+    .la_plus_populaires {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      border-radius: 10px;
+      border-color: #F2F2F2;
+      background-color:#F2F2F2;
+      padding: 20px 30px;
+      margin: 0px 30px 0px 0px;
+    }
    }
 
   
