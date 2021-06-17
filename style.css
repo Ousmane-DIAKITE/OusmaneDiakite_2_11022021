@@ -405,18 +405,19 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
+    margin: 0 15px 0 15px;
   }
   
   .hebergements-figure {
     display: flex;
     flex-direction: column;
-    width: 240px;
+    width: 246px;
     height: auto;
     border: 5px solid white;
     border-radius: 30px;
-    margin: 15px 0px 20px 0px;
+    margin: 15px 20px 5px 10px;
     background-color: white;
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
   }
