@@ -197,8 +197,8 @@
   /* FILTRE */
   
   .filtres-section {
-    display: flex;
-    flex-direction: wrap;
+    flex-wrap: wrap;
+    flex-direction: column;
     color: black;
     margin: 55px 0 20px 0;
   }
@@ -217,7 +217,6 @@
   }
   
   .filtres-section h2 {
-    align-self: center;
     margin-left: 30px;
   }
   
