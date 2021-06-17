@@ -1209,12 +1209,12 @@
    @media screen and (min-width:1360px) {
     .filtres-section h2 {
       margin-top: 0;
+
     }
     .filtres-section {
       display: flex;
       flex-wrap: wrap;
-      flex-direction: column;
-      margin: 0 0 20px 0
+      margin: 0 0 20px 0;
     } 
    }
   
@@ -1231,7 +1231,6 @@
     .filtres-section {
       display: flex;
       flex-wrap: wrap;
-      flex-
       margin: 0 0 20px 0;
     }
     
