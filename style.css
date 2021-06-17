@@ -199,6 +199,7 @@
   .filtres-section {
     display: flex;
     flex-wrap: wrap; 
+    flex-diection: column;
     color: black;
     margin: 55px 0 20px 0;
   }
