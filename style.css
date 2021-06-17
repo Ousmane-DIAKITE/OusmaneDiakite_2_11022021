@@ -163,7 +163,7 @@
     color: black;
     font-size: 100%;  
     margin: 0 15px 0 15px;
-    align-self: center;
+    align-items: center;
   }
   
   .sous-titre {
