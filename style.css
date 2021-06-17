@@ -1247,7 +1247,7 @@
   
   /*-----------------------Code pour format de tablette-----------------*/
   
-  @media screen and (min-width:767px) {
+  @media screen and (min-width:767px) and (max-width:900px) {
   
     .filtres-section h2 {
       margin-top: 0;
