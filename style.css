@@ -900,13 +900,12 @@
   
   .filtres-section {
     display: flex;
+    flex-wrap: wrap;
     margin: 0 0 20px 0
   }
   
   .liste-filtres {
-    
     margin-right: 25px;
-    align-items: center;
   }
   
   .container-filtres {
