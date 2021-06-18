@@ -1202,7 +1202,161 @@
   }
   
   /*-----------------------Code pour format de smartphone-----------------*/
-  
+  @media screen and (min-width:496px) {
+
+    .container-filtres {
+      display: inline-block; 
+    }
+
+    .populaire-header {
+      margin-left: 15px;
+    }
+
+    .populaire-figure {
+      display: flex;
+      width: 91%;
+      height: 150px;
+      border-radius: 40px;
+      margin: 15px 0px 20px 20px; 
+    }
+
+    .Populaire-image {
+      display: flex;
+      border-top-left-radius: 35px;
+      border-bottom-left-radius: 35px;
+      width: 100%;
+      object-fit: cover;
+      height: 100%;
+      flex: 0.9;
+    }
+
+    .populaire-description {
+      margin: 5px 0 0 5px;
+      flex: 1.2;
+    }
+
+    .hebergements-header {
+      margin-left: 21px;
+    }
+
+    .hebergements-figure {
+      display: flex;
+      flex-direction: column;
+      width: 94%;
+      height: 244px;
+      border: 5px solid white;
+      border-radius: 25px;
+      margin: 0px 0px 30px 10px;
+    }
+
+    .Hebergements-image {
+      width: 100%;
+      height: 126px;
+      object-fit: cover;
+    }
+
+    .afficher-plus {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 15px;
+    }
+
+    .header-activites {
+      margin: 15px 0 5px 20px;
+    }
+
+    .activites-figure-big-photo {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 88%;
+      height: 250px;
+      border: 5px solid white;
+      border-radius: 30px;
+      margin: 20px 15px 15px 25px;
+      background-color: white;
+    }
+
+    .Activiter-imageA {
+      width: 100%;
+      height: 80%;
+      object-fit: cover; 
+    }
+
+    .Activiter-imageB {
+      width: 100%;
+      object-fit: cover;
+      height: 80%;
+    }
+
+    .Activiter-imageC {
+      width: 100%;
+      height: 80%;
+      object-fit: cover;
+    }
+
+    .Activiter-imageD {
+      width: 100%;
+      height: 80%;
+      object-fit: cover;
+    }
+
+    .Activiter-imageE {
+      width: 100%;
+      height: 80%;
+      object-fit: cover;
+    }
+
+    .activites-figure-big-photo {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 88%;
+      height: 250px;
+      border: 5px solid white;
+      border-radius: 30px;
+      margin: 20px 15px 15px 25px;
+      background-color: white;
+    }
+
+    .activites-cards-medium-groupe {
+      width: 100%;
+      height: 100%;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin: 0;
+    }
+    
+    .activites-figure-medium-photo-1 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 88%;
+      height: 250px;
+    }
+
+    .activites-figure-medium-photo-2 {
+      width: 88%;
+      height: 250px;
+    }
+
+    .activites-figure-medium-photo-3 {
+      width: 88%;
+      height: 250px;
+    }
+
+    .activites-figure-medium-photo-4 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 88%;
+      height: 250px;
+      border: 5px solid white;
+      border-radius: 30px;
+      margin: 20px 15px 15px 0;
+      background-color: white;
+    }
+
   /*-----------------------Code pour format de tablette-----------------*/
   
   @media screen and (min-width:767px) and (max-width:900px) {
