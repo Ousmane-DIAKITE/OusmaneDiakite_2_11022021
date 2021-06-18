@@ -770,7 +770,7 @@
   
   /*-----------------------Code pour format de smartphone-----------------*/
   
-  @media screen and (max-width: 500px) {
+  @media (max-width: 340px) {
   
 
   /* HOVER navbar */ 
@@ -880,10 +880,11 @@
     justify-content: center;
     font-weight: 900;
     color: white;
+    font-size: 17px;
   }
   
   .search-form-button {
-    width: 70px;
+    width: 55px;
     background-color:#0065FC;
     color: white;
     border: unset;
@@ -943,11 +944,10 @@
   
   .populaire-figure {
     display: flex;
-    width: 351px;
-    height: 150px;
+    width: 92%;
     border: 5px solid white;
-    border-radius: 40px;
-    margin: 25px 0px 20px 10px;
+    border-radius: 25px;
+    margin: 15px 15px 15px 15px;
     background-color: white;
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
   } 
@@ -982,7 +982,7 @@
     height: 244px;
     border: 5px solid white;
     border-radius: 25px;
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 30px 8px;
     background-color: white;
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
   }
@@ -1061,11 +1061,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 89%;
+    width: 88%;
     height: 250px;
     border: 5px solid white;
     border-radius: 30px;
-    margin: 20px 15px 15px 0;
+    margin: 20px 15px 15px 20px;
     background-color: white;
   }
   
@@ -1420,22 +1420,30 @@
 
   /*-----------------------Code pour format de tablette-----------------*/
 
-     /*----------------------Code pour format desktop plus de 1361px---------*/
+/*----------------------Code pour format desktop plus de 1024px---------*/
 
-     @media screen and (min-width:1361px) {
-      .filtres-section h2 {
-        margin-top: 0;   
-        
-      }
-      .filtres-section {
+
+
+
+  /*----------------------Code pour format desktop plus de 1361px---------*/
+
+  @media screen and (min-width:1361px) {
+
+    .filtres-section h2 {
+        margin-top: 0;       
+    }
+
+    .filtres-section {
         display: flex;
         flex-wrap: wrap;
         margin: 0 0 20px 0;
-      } 
-      .container {
+    } 
+
+    .container {
         flex-direction: row-reverse;
-      }
-      .hebergements {
+    }
+
+    .hebergements {
         display: flex;
         flex-direction: column;
         flex: 3;
@@ -1444,8 +1452,9 @@
         background-color: #F2F2F2;
         margin: 0 30px;
         padding: 0 30px;
-      }
-      .la_plus_populaires {
+    }
+
+    .la_plus_populaires {
         display: flex;
         flex: 1;
         flex-direction: column;
@@ -1454,7 +1463,7 @@
         background-color:#F2F2F2;
         padding: 20px 30px;
         margin: 0 30px 0px 0;
-      }
-     }
+    }
+    }
   
     /*-----------------------Code pour format desktop plus de 1361px---------------------*/
