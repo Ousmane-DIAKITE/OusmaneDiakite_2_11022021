@@ -774,7 +774,7 @@
   
   /*-----------------------Code pour format de smartphone-----------------*/
   
-  @media screen and (min-width: 375px) and (max-width: 767px) {
+  @media screen and (min-width: 374px) and (max-width: 574px) {
   
     body {
       font-family: 'Raleway Regular', sans-serif
@@ -1182,7 +1182,7 @@
 
   /*-----------------------Code pour format de tablette-----------------*/
   
-  @media screen and (min-width: 769px) and (max-width: 1199px) {
+  @media screen and (min-width: 575px) and (max-width: 766px) {
   
     .filtres-section h2 {
       margin-top: 0;
@@ -1401,7 +1401,7 @@
 
   /*----------------------Code pour format desktop plus de 1361px---------*/
 
-  @media screen and (min-width:1361px) {
+  @media screen and (min-width:767px) and (max-width:1199px) {
   
     body {
       font-family: 'Raleway Regular', sans-serif
