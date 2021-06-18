@@ -952,6 +952,16 @@
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
   } 
   
+  .Populaire-image {
+    display: flex;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    flex: 0.9;
+  }
+  
   .hebergements-header {
     margin-left: 21px;
   }
