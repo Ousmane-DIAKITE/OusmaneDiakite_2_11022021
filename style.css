@@ -770,7 +770,7 @@
   
   /*-----------------------Code pour format de smartphone-----------------*/
   
-  @media (max-width: 340px) {
+  @media (max-width: 767px) {
   
 
   /* HOVER navbar */ 
@@ -1206,7 +1206,7 @@
 
   /*-----------------------Code pour format de tablette-----------------*/
   
-  @media screen and (min-width:767px) and (max-width:900px) {
+  @media screen and (max-width: 1199px) {
   
     .filtres-section h2 {
       margin-top: 0;
