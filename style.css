@@ -907,7 +907,8 @@
   
   .filtres-section {
     display: flex;
-    margin: 0 0 20px 0
+    margin: 0 0 20px 0;
+    
   }
   
   .liste-filtres {
@@ -919,6 +920,7 @@
   .container-filtres {
     margin-left: 20px;
     line-height: 1.6;
+    display: inline;
   } 
   
   .container {
@@ -966,6 +968,11 @@
     object-fit: cover;
     flex: 0.9;
   }
+   
+  .hebergements {
+    display: flex;
+    flex-direction: column;
+  }
 
   .hebergements-figure {
     display: flex;
@@ -994,12 +1001,16 @@
   .header-activites {
     margin: 30px 0 5px 10px;
   }
-
+  
+  .section-activites {
+    display: flex;
+    flex-direction: column;
+  }
+  
   .activites-figure-big-photo {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 88%;
     height: 250px;
     border: 5px solid white;
     border-radius: 30px;
@@ -1058,18 +1069,33 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 88%;
+    width: 89%;
     height: 250px;
+    border: 5px solid white;
+    border-radius: 30px;
+    background-color: white;
   }
 
   .activites-figure-medium-photo-2 {
-    width: 88%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 89%;
     height: 250px;
+    border: 5px solid white;
+    border-radius: 30px;
+    background-color: white;
   }
 
   .activites-figure-medium-photo-3 {
-    width: 88%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 89%;
     height: 250px;
+    border: 5px solid white;
+    border-radius: 30px;
+    background-color: white;
   }
 
   .activites-figure-medium-photo-4 {
