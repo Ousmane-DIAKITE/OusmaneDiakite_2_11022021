@@ -1202,7 +1202,7 @@
   }
   
   /*-----------------------Code pour format de smartphone-----------------*/
-  @media screen and (min-width:496px) {
+  @media screen and (max-width:496px) {
 
     .container-filtres {
       display: inline-block; 
