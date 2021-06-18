@@ -24,6 +24,10 @@
     background-size: cover;
     background-color: white;
   }
+
+  body {
+      font-family: 'Raleway Regular', sans-serif
+  }
   
   /* logo */
   
@@ -951,7 +955,7 @@
     background-color: white;
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
   } 
-  
+
   .Populaire-image {
     display: flex;
     border-top-left-radius: 35px;
@@ -960,10 +964,6 @@
     object-fit: cover;
     height: 100%;
     flex: 0.9;
-  }
-  
-  .hebergements-header {
-    margin-left: 21px;
   }
 
   .hebergements-figure {
@@ -1192,12 +1192,7 @@
   
   .populaire-figure {
     align-content: center;
-    width: 500px;
   }
-  
-  .Populaire-image {
-    width: 200px; 
-    }
   
   .hebergements {
     border: none;
