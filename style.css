@@ -1018,7 +1018,6 @@
     height: 250px;
     border: 5px solid white;
     border-radius: 30px;
-    margin: 20px 15px 15px 25px;
     background-color: white;
   }
 
@@ -1277,7 +1276,7 @@
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     width: 100%;
-    height: 87%;
+    height: 80%;
     object-fit: cover;
   }
   
@@ -1321,7 +1320,7 @@
     height: 210px;
     border: 5px solid white;
     border-radius: 30px;
-    margin: 10px 5px 15px 10px;
+    margin: 10px 15px 10px 15px;
     background-color: white;
   }
   
@@ -1333,7 +1332,7 @@
     height: 210px;
     border: 5px solid white;
     border-radius: 30px;
-    margin: 10px 5px 15px 10px;
+    margin: 15px 15px 5px 15px;
     background-color: white;
   }
   
@@ -1345,7 +1344,7 @@
     height: 210px;
     border: 5px solid white;
     border-radius: 30px;
-    margin: 10px 5px 15px 10px;
+    margin: 5px 15px 10px 15px;
     background-color: white;
   }
   
@@ -1357,26 +1356,26 @@
     height: 210px;
     border: 5px solid white;
     border-radius: 30px;
-    margin: 10px 5px 15px 10px;
+    margin: 10px 15px 10px 15px;
     background-color: white;
   }
   
   .activites-figure-big-photo {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      width: 100%;
-      height: 210px;
-      border: 5px solid white;
-      border-radius: 30px;
-      margin: 10px 5px 15px 10px;
-      background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 210px;
+    border: 5px solid white;
+    border-radius: 30px;
+    margin: 15px 15px 10px 15px;
+    background-color: white;
   }
   
   .activites-cards-medium-groupe {
-    width: 325px;
-    height: auto;
-    margin: 0;             
+    width: 90%;
+    height: 100%;
+    margin: 10px 15px 5px 15px;            
    }
   
   .header-activites {
