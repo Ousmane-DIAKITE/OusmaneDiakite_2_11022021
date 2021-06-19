@@ -1332,7 +1332,7 @@
     height: 210px;
     border: 5px solid white;
     border-radius: 30px;
-    margin: 15px 15px 5px 15px;
+    margin: 15px 15px 0px 15px;
     background-color: white;
   }
   
@@ -1352,11 +1352,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     height: 210px;
     border: 5px solid white;
     border-radius: 30px;
-    margin: 10px 15px 10px 15px;
+    margin: 20px 15px 15px 15px;
     background-color: white;
   }
   
