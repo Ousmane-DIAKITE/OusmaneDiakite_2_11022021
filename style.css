@@ -921,7 +921,7 @@ body {
     line-height: 1.6;
     display: inline;
   }
-   
+
   .container {
     display: flex;
     flex-direction: column;
@@ -1049,7 +1049,7 @@ body {
     border: 5px solid white;
     border-radius: 30px;
     background-color: white;
-    margin: 20px 0px 20px 30px
+    margin: 20px 0px 20px 15px;
   }
 
   .activites-cards-medium-groupe {
@@ -1365,7 +1365,6 @@ body {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     object-fit: cover;
-    width: 40%;
   }
    
   .hebergements {
@@ -1449,7 +1448,7 @@ body {
     border: 5px solid white;
     border-radius: 30px;
     background-color: white;
-    margin: 20px 0px 20px 30px
+    margin: 20px 0px 20px 30px;
   }
 
   .activites-cards-medium-groupe {
