@@ -920,8 +920,13 @@ body {
     margin-left: 20px;
     line-height: 1.6;
     display: inline;
-  } 
-  
+  }
+   
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
   .la_plus_populaires {
     display: flex;
     flex-direction: column;
