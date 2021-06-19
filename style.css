@@ -1759,6 +1759,7 @@ body {
     border: 5px solid white;
     border-radius: 30px;
     background-color: white;
+    margin-right: 20px;
   }
 
   .activites-figure-medium-photo-4 {
@@ -1771,6 +1772,7 @@ body {
     border-radius: 30px;
     margin: 20px 0px 15px 0;
     background-color: white;
+    margin-right: 20px;
   }
   
   .header-activites {
