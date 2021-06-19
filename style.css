@@ -1053,12 +1053,14 @@ body {
   .filtres-section h2 {
     margin-top: 0;
     margin-bottom: 10px;
+    align-self: center;
+    display: inline;
   }
   
   .filtres-section {
-    display: flex;
-    margin: 0 0 20px 0;
-    
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 15px 0 0px;
   }
   
   .liste-filtres {
@@ -1116,7 +1118,7 @@ body {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     object-fit: cover;
-    flex: 0.9;
+    flex: 0.7;
   }
    
   .hebergements {
@@ -1139,7 +1141,7 @@ body {
   }
 
   .hebergements-header {
-    margin: 0px 0 15px 10px;
+    margin: 10px 0 15px 10px;
   }
 
   .Hebergements-image {
@@ -1206,10 +1208,11 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     width: 89%;
-    height: 250px;
+    height: 262px;
     border: 5px solid white;
     border-radius: 30px;
     background-color: white;
+    margin: 20px 25px 20px;
   }
 
   .activites-cards-medium-groupe {
@@ -1238,7 +1241,7 @@ body {
     border: 5px solid white;
     border-radius: 30px;
     background-color: white;
-    margin-top: 15px;
+    margin-top: 20px;
   }
 
   .activites-figure-medium-photo-3 {
@@ -1260,7 +1263,7 @@ body {
     height: 250px;
     border: 5px solid white;
     border-radius: 30px;
-    margin: 20px 15px 15px 0;
+    margin: 20px 0px 15px 0;
     background-color: white;
   }
   
