@@ -1105,7 +1105,7 @@ body {
     height: 133px;
     border: 5px solid white;
     border-radius: 25px;
-    margin: 15px 15px 15px 15px;
+    margin: 15px 15px 15px 25px;
     background-color: white;
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
   } 
@@ -1115,7 +1115,7 @@ body {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     object-fit: cover;
-    flex: 0.7;
+    width: 40%;
   }
    
   .hebergements {
@@ -1134,7 +1134,7 @@ body {
     height: 244px;
     border: 5px solid white;
     border-radius: 25px;
-    margin: 0px 0px 30px 10px;
+    margin: 0px 0px 30px 15px;
   }
 
   .hebergements-header {
@@ -1158,16 +1158,6 @@ body {
   .section-activites {
     display: flex;
     flex-direction: column;
-  }
-  
-  .activites-figure-big-photo {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 250px;
-    border: 5px solid white;
-    border-radius: 30px;
-    background-color: white;
   }
 
   .Activiter-imageA {
@@ -1209,7 +1199,7 @@ body {
     border: 5px solid white;
     border-radius: 30px;
     background-color: white;
-    margin: 20px 25px 20px;
+    margin: 20px 0px 20px 30px
   }
 
   .activites-cards-medium-groupe {
@@ -1227,6 +1217,7 @@ body {
     border: 5px solid white;
     border-radius: 30px;
     background-color: white;
+    margin-right: 10px;
   }
 
   .activites-figure-medium-photo-2 {
@@ -1239,6 +1230,7 @@ body {
     border-radius: 30px;
     background-color: white;
     margin-top: 20px;
+    margin-right: 10px;
   }
 
   .activites-figure-medium-photo-3 {
@@ -1250,6 +1242,7 @@ body {
     border: 5px solid white;
     border-radius: 30px;
     background-color: white;
+    margin-right: 10px;
   }
 
   .activites-figure-medium-photo-4 {
@@ -1260,7 +1253,7 @@ body {
     height: 250px;
     border: 5px solid white;
     border-radius: 30px;
-    margin: 20px 0px 15px 0;
+    margin: 20px 10px 15px 0;
     background-color: white;
   }
   
