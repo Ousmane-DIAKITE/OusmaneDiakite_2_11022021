@@ -1053,8 +1053,6 @@ body {
   .filtres-section h2 {
     margin-top: 0;
     margin-bottom: 10px;
-    align-self: center;
-    display: inline;
   }
   
   .filtres-section {
@@ -1064,7 +1062,6 @@ body {
   }
   
   .liste-filtres {
-    
     margin-right: 25px;
     align-items: center;
   }
