@@ -774,7 +774,7 @@
   
   /*-----------------------Code pour format de smartphone-----------------*/
   
-  @media screen and (min-width: 576px) {
+  @media screen and (min-width: 375px) and (max-width: 767px) {
   
     body {
       font-family: 'Raleway Regular', sans-serif
