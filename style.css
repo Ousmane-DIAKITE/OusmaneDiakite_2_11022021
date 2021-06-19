@@ -906,7 +906,7 @@ body {
   
   .filtres-section {
     display: flex;
-    margin: 5px 20px 0 30px;
+    margin: 0 0 20px 0;
   }
   
   .liste-filtres {
@@ -1300,14 +1300,13 @@ body {
   }
   
   .filtres-section h2 {
-    margin-top: 0;
-    margin-bottom: 10px;
+    align-self: flex-start;
   }
   
   .filtres-section {
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 5px 15px 0 15px;
+    margin: 0 15px 0 0px;
   }
   
   .liste-filtres {
