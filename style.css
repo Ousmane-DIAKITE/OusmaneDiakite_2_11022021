@@ -1829,7 +1829,7 @@ body {
     } 
 
     .container {
-        flex-direction: row-reverse;
+        flex-direction: column;
     }
 
     .hebergements {
@@ -1844,15 +1844,35 @@ body {
     }
 
     .la_plus_populaires {
-        display: flex;
-        flex: 1;
-        flex-direction: column;
-        border-radius: 10px;
-        border-color: #F2F2F2;
-        background-color:#F2F2F2;
-        padding: 20px 30px;
-        margin: 0 30px 0px 0;
+      align-items: center;
+      border: none;
+      margin: 0;
+      border-radius: 0;
+      margin-bottom: 35px;
     }
+
+    .section-hebergements {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 0 15px 0 10px;
+      align-items: center;
+      border: none;
+      border-radius: 0;
+  }
+
+    .hebergements-figure {
+      display: flex;
+      flex-direction: column;
+      width: 46%;
+      height: auto;
+      border: 5px solid white;
+      border-radius: 30px;
+      margin: 15px 20px 5px 10px;
+      background-color: white;
+      box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
+  }
     }
   
     /*-----------------------Code pour format desktop plus de 1361px---------------------*/
