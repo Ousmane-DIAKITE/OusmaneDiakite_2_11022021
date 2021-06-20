@@ -1586,7 +1586,7 @@ body {
     .filtres-section h2 {
       margin: 0 15px 5px 30px;
     }
-    
+
     .filtres-section {
       display: flex;
       flex-wrap: wrap;
@@ -1660,11 +1660,12 @@ body {
   }
   
   .afficher-plus   {
-    margin: 10px 20px 20px 5px;
+    margin: 10px 0px 20px 10px;
   }
 
   .header-activites {
-    margin: 20px 0 5px 25px;
+      margin: 15px 0 0px 25px;
+      font-weight: 700;
   }
   
   .activites {
