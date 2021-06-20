@@ -951,7 +951,7 @@ body {
   .populaire-figure {
     display: flex;
     width: 91%;
-    height: 133px;
+    height: 100%;
     border: 5px solid white;
     border-radius: 25px;
     margin: 15px 15px 15px 25px;
@@ -965,8 +965,13 @@ body {
     border-bottom-left-radius: 20px;
     object-fit: cover;
     width: 40%;
+    height: auto;
   }
-   
+  .populaire-description {
+    margin: 5px 0 0 5px;
+    height: 100%;
+    width: 100%;
+  }
   .hebergements {
     display: flex;
     flex-direction: column;
