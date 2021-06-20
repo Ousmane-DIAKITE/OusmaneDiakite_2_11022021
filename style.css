@@ -1584,8 +1584,9 @@ body {
   @media screen and (min-width: 768px) and (max-width: 900px) {
   
     .filtres-section h2 {
-      margin: 0;
+      margin: 0 15px 5px 30px;
     }
+    
     .filtres-section {
       display: flex;
       flex-wrap: wrap;
@@ -1660,6 +1661,10 @@ body {
   
   .afficher-plus   {
     margin: 10px 20px 20px 5px;
+  }
+
+  .header-activites {
+    margin: 20px 0 5px 25px;
   }
   
   .activites {
@@ -1764,7 +1769,7 @@ body {
     border: 5px solid white;
     border-radius: 30px;
     background-color: white;
-    margin-right: 20px;
+    margin-right: 10px;
   }
 
   .activites-figure-medium-photo-4 {
@@ -1777,7 +1782,7 @@ body {
     border-radius: 30px;
     margin: 20px 0px 15px 0;
     background-color: white;
-    margin-right: 20px;
+    margin-right: 10px;
   }
   
   .header-activites {
