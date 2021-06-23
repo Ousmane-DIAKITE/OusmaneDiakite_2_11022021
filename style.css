@@ -1873,6 +1873,18 @@ body {
       background-color: white;
       box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
   }
+
+    .activites {
+    display: flex;
+    flex-direction: column;
+  }
+
+    .section-activites {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+  } 
     }
   
     /*-----------------------Code pour format desktop plus de 1361px---------------------*/
