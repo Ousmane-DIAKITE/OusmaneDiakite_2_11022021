@@ -1053,7 +1053,7 @@ body {
     border: 5px solid white;
     border-radius: 30px;
     background-color: white;
-    margin: 20px 0px 20px 10px;
+    margin: 20px 0 20px 20px;
   }
 
   .activites-cards-medium-groupe {
@@ -1071,7 +1071,6 @@ body {
     border: 5px solid white;
     border-radius: 30px;
     background-color: white;
-    margin-right: 10px;
   }
 
   .activites-figure-medium-photo-2 {
@@ -1084,7 +1083,6 @@ body {
     border-radius: 30px;
     background-color: white;
     margin-top: 20px;
-    margin-right: 10px;
   }
 
   .activites-figure-medium-photo-3 {
@@ -1096,7 +1094,6 @@ body {
     border: 5px solid white;
     border-radius: 30px;
     background-color: white;
-    margin-right: 10px;
   }
 
   .activites-figure-medium-photo-4 {
@@ -1107,7 +1104,7 @@ body {
     height: 250px;
     border: 5px solid white;
     border-radius: 30px;
-    margin: 20px 10px 15px 0;
+    margin: 20px 0 15px 0;
     background-color: white;
   }
   
