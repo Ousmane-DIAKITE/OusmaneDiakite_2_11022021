@@ -1885,6 +1885,47 @@ body {
       justify-content: center;
       align-items: center;
   } 
+
+    .Activiter-imageA {
+      border-top-left-radius: 30px;
+     border-top-right-radius: 30px;
+      width: 100%;
+      height: 87%;
+     object-fit: cover;
+  }
+
+    .Activiter-imageB {
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      width: 100%;
+      height: 74%;
+      object-fit: cover;
+  }
+
+    .Activiter-imageC {
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      width: 100%;
+      height: 74%;
+      object-fit: cover;
+  }
+    
+    .Activiter-imageE { 
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      width: 100%;
+      height: 74%;
+      object-fit: cover;
+  }
+    
+    .Activiter-imageD {
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      width: 100%;
+      height: 74%;
+      object-fit: cover;
+  }
+
     }
   
     /*-----------------------Code pour format desktop plus de 1361px---------------------*/
