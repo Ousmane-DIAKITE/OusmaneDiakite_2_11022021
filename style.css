@@ -1577,7 +1577,7 @@ body {
 
   /*-----------------------Code pour format de tablette-----------------*/
   
-  @media screen and (min-width: 768px) and (max-width: 900px) {
+  @media screen and (min-width: 768px) and (max-width: 899px) {
   
     .filtres-section h2 {
       margin: 0 15px 5px 30px;
