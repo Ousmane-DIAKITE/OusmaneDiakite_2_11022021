@@ -2003,4 +2003,129 @@ body {
   /*----------------------Code pour format desktop moins de 1024px---------*/
 
 
-   
+    /*-----------------------Code pour format desktop plus de 1025px---------------------*/
+
+  @media screen and (min-width: 1261px) and (max-width: 1440px) {
+
+    .activites {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+    }
+    
+    .section-activites {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    } 
+    
+    .Activiter-imageA {
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      width: 100%;
+      height: 87%;
+      object-fit: cover;
+    }
+    
+    .Activiter-imageB {
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      width: 100%;
+      height: 74%;
+      object-fit: cover;
+    }
+    
+    .Activiter-imageC {
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      width: 100%;
+      height: 74%;
+      object-fit: cover;
+    }
+        
+    .Activiter-imageE { 
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      width: 100%;
+      height: 74%;
+      object-fit: cover;
+    }
+        
+    .Activiter-imageD {
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      width: 100%;
+      height: 74%;
+      object-fit: cover;
+    }
+    
+    .activites-figure-medium-photo-1 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 210px;
+      border: 5px solid white;
+      border-radius: 30px;
+      margin: 10px 5px 15px 10px;
+      background-color: white;
+    }
+    
+    .activites-figure-medium-photo-2 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 210px;
+      border: 5px solid white;
+      border-radius: 30px;
+      margin: 10px 5px 15px 10px;
+      background-color: white;
+    }
+    
+    .activites-figure-medium-photo-3 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 210px;
+      border: 5px solid white;
+      border-radius: 30px;
+      margin: 10px 5px 15px 10px;
+      background-color: white;
+    }
+    
+    .activites-figure-medium-photo-4 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 210px;
+      border: 5px solid white;
+      border-radius: 30px;
+      margin: 10px 5px 15px 10px;
+      background-color: white;
+    }
+      
+    .activites-figure-big-photo {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 50%;
+      height: 450px;
+      border: 5px solid white;
+      border-radius: 30px;
+      background-color: white;
+      margin: 15px 45px 15px 10px;
+    }
+    
+    .activites-cards-medium-groupe {
+      width: 325px;
+      height: auto;
+      margin: 0;
+    }
+
+
+    }
+    /*----------------------Code pour format desktop plus de 1025px---------*/
