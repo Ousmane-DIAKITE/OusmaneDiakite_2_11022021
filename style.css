@@ -951,7 +951,6 @@ body {
   .populaire-figure {
     display: flex;
     width: 91%;
-    height: 100%;
     border: 5px solid white;
     border-radius: 25px;
     margin: 15px 15px 15px 25px;
@@ -1448,7 +1447,7 @@ body {
     border: 5px solid white;
     border-radius: 30px;
     background-color: white;
-    margin: 20px 0px 20px 20px;
+    margin: 20px 0px 20px 15px;
   }
 
   .activites-cards-medium-groupe {
@@ -1466,7 +1465,7 @@ body {
     border: 5px solid white;
     border-radius: 30px;
     background-color: white;
-    margin-right: 10px;
+    margin-right: 50px;
   }
 
   .activites-figure-medium-photo-2 {
@@ -1479,7 +1478,7 @@ body {
     border-radius: 30px;
     background-color: white;
     margin-top: 20px;
-    margin-right: 10px;
+    margin-right: 50px;
   }
 
   .activites-figure-medium-photo-3 {
@@ -1491,7 +1490,7 @@ body {
     border: 5px solid white;
     border-radius: 30px;
     background-color: white;
-    margin-right: 10px;
+    margin-right: 50px;
   }
 
   .activites-figure-medium-photo-4 {
@@ -1502,7 +1501,7 @@ body {
     height: 250px;
     border: 5px solid white;
     border-radius: 30px;
-    margin: 20px 10px 15px 0;
+    margin: 20px 50px 15px 0;
     background-color: white;
   }
   
