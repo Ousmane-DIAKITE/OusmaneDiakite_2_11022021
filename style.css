@@ -1729,7 +1729,7 @@ body {
     border: 5px solid white;
     border-radius: 30px;
     background-color: white;
-    margin: 20px 25px 20px;
+    margin: 20px 25px 20px 5px;
   }
 
   .activites-cards-medium-groupe {
@@ -1747,6 +1747,7 @@ body {
     border: 5px solid white;
     border-radius: 30px;
     background-color: white;
+    margin-right: 20px
   }
 
   .activites-figure-medium-photo-2 {
@@ -1759,6 +1760,7 @@ body {
     border-radius: 30px;
     background-color: white;
     margin-top: 20px;
+    margin-right: 20px
   }
 
   .activites-figure-medium-photo-3 {
@@ -1770,7 +1772,7 @@ body {
     border: 5px solid white;
     border-radius: 30px;
     background-color: white;
-    margin-right: 10px;
+    margin-right: 20px;
   }
 
   .activites-figure-medium-photo-4 {
@@ -1783,7 +1785,7 @@ body {
     border-radius: 30px;
     margin: 20px 0px 15px 0;
     background-color: white;
-    margin-right: 10px;
+    margin-right: 20px;
   }
   
   .header-activites {
