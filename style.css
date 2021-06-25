@@ -333,7 +333,7 @@
     flex-direction: row;
     margin-bottom: 35px;
     margin-left: 5px;
-    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 20% 20% 20% 20% 20% 20%;
     grid-gap: 10px;
   }
