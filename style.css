@@ -387,6 +387,8 @@
   
   .activites-carte-container6 {
     background-color: hotpink;
+    grid-column: 4;
+    grid-row: 1 / 2;
   }
 
   .activite-description {
