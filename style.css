@@ -333,11 +333,18 @@
     flex-direction: row;
     margin-bottom: 35px;
     margin-left: 5px;
-    grid-template-columns: repeat(4 , 1fr);
-    grid-template-areas: big-;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-rows: 20% 20% 20% 20% 20% 20%;
+    grid-gap: 10px;
   }
   
-  .activites-carte-container {
+  .activites-carte-container,
+  .activites-carte-container1,
+  .activites-carte-container2,
+  .activites-carte-container3,
+  .activites-carte-container4,
+  .activites-carte-container5,
+  .activites-carte-container6 {
     display: flex;
     flex-direction: column;
     margin: 20px 10px 20px 20px;
@@ -347,20 +354,6 @@
     width: 88%;
     height: 447px;
 }
-  
-  .activites-cards-medium-groupe {
-    height: 100%;
-    width: 23%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20px 10px 20px 20px;
-    list-style: none;
-    opacity: 1;
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-  }
   
   .activite-description {
     margin: 12px 10px 12px 20px;
@@ -449,8 +442,9 @@
   
   .populaire-description {
       margin: 5px 0 0 5px;
+      background-color: h;
   }
-  
+
   .populaire-description p {
     margin-left: 10px;
   }
