@@ -329,13 +329,15 @@
   }
   
   .section-activites {
-    display: flex;
+    display: grid;
     flex-direction: row;
     margin-bottom: 35px;
     margin-left: 5px;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-areas: big-;
   }
   
-  .activites-figure-big-photo {
+  .activites-carte-container {
     display: flex;
     flex-direction: column;
     margin: 20px 10px 20px 20px;
