@@ -739,30 +739,31 @@
     }
 
     .filtres-section h2 {
-        margin-left: 30px;
+      margin-left: 30px;
     }
 
     .filtres-section {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 0 20px 0;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 0 20px 0;
+      flex-direction: column;
     } 
 
     .container {
-        display: flex;
+      display: flex;
     }
 
     .hebergements {
-        display: flex;
-        flex-direction: column;
-        flex: 3;
-        border-radius: 10px;
-        border-color: #F2F2F2;
-        background-color: #F2F2F2;
-        margin: 0 17px;
-        padding: 0 17px;
-        border: none;
-        background-color: white;
+      display: flex;
+      flex-direction: column;
+      flex: 3;
+      border-radius: 10px;
+      border-color: #F2F2F2;
+      background-color: #F2F2F2;
+      margin: 0 17px;
+      padding: 0 17px;
+      border: none;
+      background-color: white;
     }
 
     .la_plus_populaires {
