@@ -1363,7 +1363,7 @@ body {
 
 /*----------------------Code pour format desktop moins de 1024px---------*/
 
-  @media and (mix-width: 1290px) {
+  @media screen and (mix-width: 1290px) {
   
     body {
       font-family: 'Raleway Regular', sans-serif
