@@ -724,7 +724,103 @@
   /* HOVER  footer */
   
   /*-----------------------Code pour format de HOVER FIN-----------------*/
+  /*----------------------Code pour format desktop plus de 1024px---------*/
+
+  @media screen and (mix-width: 1290px) {
   
+    body {
+      font-family: 'Raleway Regular', sans-serif
+    }
+
+    .icone-info-ville {
+      background-color: #F2F2F2;
+      border-radius: 15px 0 0 15px;
+      padding: 14px 25px 14px 25px;
+    }
+
+    .filtres-section h2 {
+        margin-left: 30px;
+    }
+
+    .filtres-section {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 0 20px 0;
+    } 
+
+    .container {
+        display: flex;
+    }
+
+    .hebergements {
+        display: flex;
+        flex-direction: column;
+        flex: 3;
+        border-radius: 10px;
+        border-color: #F2F2F2;
+        background-color: #F2F2F2;
+        margin: 0 17px;
+        padding: 0 17px;
+        border: none;
+        background-color: white;
+    }
+
+    .la_plus_populaires {
+      align-items: center;
+      border: none;
+      margin: 0;
+      border-radius: 0;
+      margin-bottom: 35px;
+    }
+
+    .section-hebergements {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 0 5px 0 5px;
+      align-items: center;
+      border: none;
+      border-radius: 0;
+      background-color: white;
+    }
+
+    .hebergements-figure {
+      display: flex;
+      flex-direction: column;
+      width: 28%;
+      height: auto;
+      border: 5px solid white;
+      border-radius: 30px;
+      margin: 15px 20px 5px 10px;
+      background-color: white;
+      box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .activites {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    }
+
+    .section-activites {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    } 
+
+    .section-activites {
+      display: grid;
+      flex-direction: row;
+      grid-template-rows: 5rem 2rem 2rem 1rem 11rem;
+      grid-gap: 1rem;
+      row-gap: 2rem;
+      margin: 25px;
+  }
+  }
+
+  /*----------------------Code pour format desktop plus de 1024px---------*/
   /*-----------------------Code pour format de smartphone-----------------*/
   @media screen and (max-width: 375px) {
    
@@ -1241,103 +1337,7 @@ body {
 
   /*-----------------------Code pour format de tablette-----------------*/
 
-/*----------------------Code pour format desktop moins de 1024px---------*/
 
-  @media screen and (mix-width: 1290px) {
-  
-    body {
-      font-family: 'Raleway Regular', sans-serif
-    }
-
-    .icone-info-ville {
-      background-color: #F2F2F2;
-      border-radius: 15px 0 0 15px;
-      padding: 14px 25px 14px 25px;
-    }
-
-    .filtres-section h2 {
-        margin-left: 30px;
-    }
-
-    .filtres-section {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 0 20px 0;
-    } 
-
-    .container {
-        flex-direction: column;
-    }
-
-    .hebergements {
-        display: flex;
-        flex-direction: column;
-        flex: 3;
-        border-radius: 10px;
-        border-color: #F2F2F2;
-        background-color: #F2F2F2;
-        margin: 0 17px;
-        padding: 0 17px;
-        border: none;
-        background-color: white;
-    }
-
-    .la_plus_populaires {
-      align-items: center;
-      border: none;
-      margin: 0;
-      border-radius: 0;
-      margin-bottom: 35px;
-    }
-
-    .section-hebergements {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      margin: 0 5px 0 5px;
-      align-items: center;
-      border: none;
-      border-radius: 0;
-      background-color: white;
-    }
-
-    .hebergements-figure {
-      display: flex;
-      flex-direction: column;
-      width: 28%;
-      height: auto;
-      border: 5px solid white;
-      border-radius: 30px;
-      margin: 15px 20px 5px 10px;
-      background-color: white;
-      box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
-    }
-
-    .activites {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    }
-
-    .section-activites {
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-    } 
-
-    .section-activites {
-      display: grid;
-      flex-direction: row;
-      grid-template-rows: 5rem 2rem 2rem 1rem 11rem;
-      grid-gap: 1rem;
-      row-gap: 2rem;
-      margin: 25px;
-  }
-  }
-
-  /*----------------------Code pour format desktop moins de 1024px---------*/
 
 
    
