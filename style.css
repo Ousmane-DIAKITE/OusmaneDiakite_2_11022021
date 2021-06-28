@@ -763,18 +763,25 @@
       margin: 0 17px;
       padding: 0 17px;
       border: none;
-      background-color: white;
     }
 
-    .la_plus_populaires {
-      align-items: center;
-      border: none;
-      margin: 0;
-      border-radius: 0;
-      margin-bottom: 35px;
-    }
+  .la_plus_populaires {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  border-radius: 10px;
+  border-color: #F2F2F2;
+  background-color: #F2F2F2;
+  padding: 20px 30px;
+  margin: 0px 30px 0px 0px;
+  align-items: center;
+  border: none;
+  margin: 0;
+  border-radius: 0;
+  margin-bottom: 35px;
+  }
 
-    .section-hebergements {
+  .section-hebergements {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
