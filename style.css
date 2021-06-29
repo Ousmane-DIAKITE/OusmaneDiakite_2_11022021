@@ -718,121 +718,7 @@
   /* HOVER  footer */
   
   /*-----------------------Code pour format de HOVER FIN-----------------*/
-  /*----------------------Code pour format desktop plus de 1199px---------*/
 
-  @media screen and (max-width: 355px) {
-  
-  body {
-    font-family: 'Raleway Regular', sans-serif
-  }
-
-  .icone-info-ville {
-    background-color: #F2F2F2;
-    border-radius: 15px 0 0 15px;
-    padding: 14px 25px 14px 25px;
-  }
-
-  .filtres-section h2 {
-    margin-left: 30px;
-    align-self: center;
-  }
-
-  .filtres-section {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 0 20px 0;
-    flex-direction: column;
-  } 
-
-  .container {
-    display: flex;
-  }
-
-  .hebergements {
-    display: flex;
-    flex-direction: column;
-    flex: 3;
-    border-radius: 10px;
-    border-color: #F2F2F2;
-    background-color: #F2F2F2;
-    margin: 0 17px;
-    padding: 0 17px;
-    border: none;
-  }
-
-  .la_plus_populaires {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    border-radius: 10px;
-    border-color: #F2F2F2;
-    background-color: #F2F2F2;
-    padding: 20px 30px;
-    margin: 0px 30px 0px 0px;
-    align-items: center;
-    border: none;
-    margin: 0;
-    border-radius: 0;
-    margin-bottom: 35px;
-  }
-
-  .section-hebergements {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 5px 0 5px;
-    align-items: center;
-    border: none;
-    border-radius: 0;
-    background-color: white;
-  }
-
-  .hebergements-figure {
-    display: flex;
-    flex-direction: column;
-    width: 29%;
-    height: auto;
-    border: 5px solid white;
-    border-radius: 30px;
-    margin: 15px 20px 5px 10px;
-    background-color: white;
-    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
-  }
-
-  .activites {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-  }
-
-  .section-activites {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  } 
-
-  .section-activites {
-    max-height: 450px;
-    display: grid;
-    flex-direction: row;
-    grid-template-rows: 5rem 2rem 2rem 1rem 12rem;
-    grid-gap: 1rem;
-    row-gap: 2rem;
-    margin: 20px 20px 80px;
-  }
-  }
-
-  /*----------------------Code pour format desktop plus de 1199px---------*/
-  @media screen and (max-width: 992px) {
-
-  .container {
-    display: flex;
-    flex-direction: column;
-  }
-    
-  }
   /*-----------------------Code pour format de tablette-----------------*/
   
   @media screen and (max-width: 1199px) {
@@ -924,7 +810,6 @@
   .activites-carte-container5, 
   .activites-carte-container6 {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     background-color: white;
     border-radius: 30px;
