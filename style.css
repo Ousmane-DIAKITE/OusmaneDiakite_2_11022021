@@ -860,7 +860,7 @@
     flex-wrap: wrap;
     margin: 10px 40px 0 25px;
   }
-  
+
   .hebergements {
     display: flex;
     flex-direction: column;
@@ -899,10 +899,9 @@
   }
   
   .section-activites {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    column-gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   
   .header-activites {
