@@ -884,6 +884,32 @@
   .afficher-plus   {
     margin: 10px 0px 20px 10px;
   }
+  .activites {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section-activites {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 2rem;
+  }
+  
+  .header-activites {
+    margin: 30px 0 5px 20px;
+    font-weight: 700;
+  }
+  
+  .header-recherche h1 {
+    font-size: 1.6rem;
+    font-weight: 900;
+   }
+  
+  .header-recherche p {
+    margin-left: 15px;
+    font-size: 1.2rem;
+    +
 
 
   }
