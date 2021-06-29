@@ -331,8 +331,8 @@
     max-height: 450px;
     display: grid;
     flex-direction: row;
-    grid-template-rows: 5rem 2rem 2rem 1rem 11rem;
-    grid-gap: 1rem;
+    grid-template-rows: 5rem 2rem 2rem 1rem 12rem;
+    grid-gap: 2rem;
     row-gap: 2rem;
     margin: 25px;
   }
@@ -518,8 +518,9 @@
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     width: 100%;
-    height: 90%;
+    height: 79%;
     object-fit: cover;
+    flex: 1.2;
   }
   
   
