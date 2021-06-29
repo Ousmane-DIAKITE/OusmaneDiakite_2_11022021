@@ -355,37 +355,31 @@
   }
   
   .activites-carte-container1 {
-    background-color: red;
     grid-row: 1/6;
     grid-column: 1/2;
   }
   
   .activites-carte-container2 {
-    background-color: magenta;
     grid-row: 1/5;
     grid-column: 2/3;
   }
   
   .activites-carte-container3 {
-    background-color: violet;
-      grid-row: 5/6;
-      grid-column: 2/3;
+    grid-row: 5/6;
+    grid-column: 2/3;
   }
   
   .activites-carte-container4 {
-    background-color: green;
     grid-row: 1/6;
     grid-column: 3/4;
   }
   
   .activites-carte-container5 {
-    background-color: darkcyan;
     grid-row: 1/4;
     grid-column: 4/5;
   }
   
   .activites-carte-container6 {
-    background-color: hotpink;
     grid-row: 4/6;
     grid-column: 4/5;
   }
