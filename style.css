@@ -904,12 +904,12 @@
   .header-recherche h1 {
     font-size: 1.6rem;
     font-weight: 900;
-   }
+  }
   
   .header-recherche p {
     margin-left: 15px;
     font-size: 1.2rem;
-    +
+  }
 
 
   }
