@@ -801,9 +801,9 @@
   }
 
   .activites {
-  display: flex;
-  flex-direction: column;
-  width: auto;
+    display: flex;
+    flex-direction: column;
+    width: auto;
   }
 
   .section-activites {
@@ -825,4 +825,36 @@
   }
 
   /*----------------------Code pour format desktop plus de 1199px---------*/
+
+  /*-----------------------Code pour format de tablette-----------------*/
+  
+  @media screen and (min-width: 768px) {
+
+  .filtres-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 20px 0;
+  }
+
+  .container-filtres {
+    flex-direction: row;
+    flex-wrap: wrap;
+  } 
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+.la_plus_populaires {
+    align-items: center;
+    border: none;
+    margin: 0;
+    border-radius: 0;
+    margin-bottom: 35px;
+  }
+
+
+
+  }
  
