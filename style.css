@@ -720,7 +720,7 @@
   /*-----------------------Code pour format de HOVER FIN-----------------*/
   /*----------------------Code pour format desktop plus de 1199px---------*/
 
-  @media screen and (max-width: 1199x) {
+  @media screen and (min-width: 1199x) {
   
   body {
     font-family: 'Raleway Regular', sans-serif
@@ -828,7 +828,7 @@
 
   /*-----------------------Code pour format de tablette-----------------*/
   
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) {
 
   .filtres-section {
     display: flex;
