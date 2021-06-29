@@ -796,7 +796,7 @@
     .hebergements-figure {
       display: flex;
       flex-direction: column;
-      width: 28%;
+      width: 29%;
       height: auto;
       border: 5px solid white;
       border-radius: 30px;
@@ -822,8 +822,8 @@
       max-height: 450px;
       display: grid;
       flex-direction: row;
-      grid-template-rows: 5rem 2rem 2rem 1rem 11rem;
-      grid-gap: 1rem;
+      grid-template-rows: 5rem 2rem 2rem 1rem 12rem;
+      grid-gap: 2rem;
       row-gap: 2rem;
       margin: 25px;
   }
