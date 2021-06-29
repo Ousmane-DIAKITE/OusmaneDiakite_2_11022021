@@ -854,6 +854,36 @@
     margin-bottom: 35px;
   }
 
+  .section-hebergements{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 40px 0 25px;
+  }
+  
+  .hebergements-figure {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 45%;
+    height: 250px;
+    border: 5px solid white;
+    border-radius: 35px;
+    margin: 10px 5px 15px 10px;
+    background-color: white;
+  }
+  
+  .Hebergements-image {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;  
+    width: 100%;
+    height: 126px;
+    object-fit: cover;
+  }
+  
+  .afficher-plus   {
+    margin: 10px 0px 20px 10px;
+  }
 
 
   }
