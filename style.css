@@ -787,7 +787,15 @@
     border-radius: 0;
     background-color: white;
   }
-
+  .hebergements {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+  }
+  
   .hebergements-figure {
     display: flex;
     flex-direction: column;
