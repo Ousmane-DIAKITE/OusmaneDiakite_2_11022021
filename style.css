@@ -332,9 +332,9 @@
     display: grid;
     flex-direction: row;
     grid-template-rows: 5rem 2rem 2rem 1rem 12rem;
-    grid-gap: 2rem;
+    grid-gap: 1rem;
     row-gap: 2rem;
-    margin: 25px;
+    margin: 20px 20px 80px;
   }
   
   .activites-carte-container,
@@ -823,9 +823,9 @@
       display: grid;
       flex-direction: row;
       grid-template-rows: 5rem 2rem 2rem 1rem 12rem;
-      grid-gap: 2rem;
+      grid-gap: 1rem;
       row-gap: 2rem;
-      margin: 25px;
+      margin: 20px 20px 80px;
   }
   }
 
