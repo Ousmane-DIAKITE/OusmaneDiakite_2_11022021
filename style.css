@@ -905,7 +905,8 @@
     grid-template-rows: none;
     grid-gap: 0;
     row-gap: 0;
-    margin: 10px 40px 0 25px;
+    margin: 10px 25px 0 10px;
+    justify-content: space-between;
   }
   
   .activites-carte-container,
@@ -921,9 +922,9 @@
     background-color: white;
     border-radius: 30px;
     box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
-    width: 44%;
+    width: 43%;
     height: 250px;
-    margin: 10px 5px 15px 10px;
+    margin: 20px 20px 15px 30px;
 } 
 
   .Activites-image {
