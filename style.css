@@ -416,7 +416,7 @@
   .hebergements-figure {
     display: flex;
     flex-direction: column;
-    width: 29%;
+    width: 28%;
     height: auto;
     border: 5px solid white;
     border-radius: 30px;
