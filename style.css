@@ -330,11 +330,10 @@
   .section-activites {
     display: grid;
     flex-direction: row;
-    margin-bottom: 35px;
-    margin-left: 5px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 20% 20% 20% 20% 20% 20%;
-    grid-gap: 10px;
+    grid-template-rows: 5rem 2rem 2rem 1rem 11rem;
+    grid-gap: 1rem;
+    row-gap: 2rem;
+    margin: 25px;
   }
   
   .activites-carte-container,
@@ -417,13 +416,12 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: center;
-    margin: 0 15px 0 10px;
   }
   
   .hebergements-figure {
     display: flex;
     flex-direction: column;
-    width: 240px;
+    width: 29%;
     height: auto;
     border: 5px solid white;
     border-radius: 30px;
