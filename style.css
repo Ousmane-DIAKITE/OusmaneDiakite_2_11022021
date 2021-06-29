@@ -842,6 +842,13 @@
     font-size: 1.2rem;
   }
 
+  }
 
+  /*--------------------------Code format mobile--------------------------*/
+
+  @media screen and (max-width: 768px) {
+
+  
+    
   }
  
