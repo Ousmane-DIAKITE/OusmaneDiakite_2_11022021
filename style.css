@@ -848,6 +848,245 @@
 
   @media screen and (max-width: 768px) {
 
+  body {
+    font-family: 'Raleway Regular', sans-serif;
+  }  
+    
+  /* HOVER navbar */ 
+      
+  .link-navbar:hover {
+    border: none;
+  }
+      
+  .link-navbar a:hover {
+    color: #0065FC;
+    border-bottom-color: #0065FC;
+  }
+      
+  .signup-navbar:hover {
+    transition: 0.3s;
+  }
+      
+  /* HOVER navbar */
+      
+  .nav-bar {
+    display: flex;
+  }
+      
+  .logo {
+    position: absolute;
+    width: 90px;
+    height: 60px;
+    margin-left: 25px;
+    object-fit: contain;
+  }
+      
+  .nav-bar-menu {
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    margin-top: 75px;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+  }
+      
+  .link-navbar a {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    border-bottom: 2px solid #F2F2F2;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+      
+  .nav-bar .link-navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Raleway Regular', sans-serif;
+    padding-top: 10px;
+  }
+      
+  .signup-navbar a {
+    text-decoration: none;
+    color: #0065FC;
+    font-weight: bold;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+  }
+      
+  .signup-navbar {
+    font-family: 'Raleway Regular', sans-serif;  
+    font-weight: bold;
+    color:#0065FC;
+    text-decoration: none; 
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .header-recherche, p {
+    margin-left: 14px;
+    font-size: 17px;
+  }
+      
+  .icone-info-ville {
+    background-color: #F2F2F2;
+    border-radius: 15px 0 0 15px;
+    padding: 20px 20px 20px 20px;
+  }
+      
+  .search {
+    font-weight: 900;
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    padding: 1.2rem;
+  }
+      
+  span {
+    display: none;
+  }
+      
+  .fa-search {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: 900;
+    color: white;
+    font-size: 17px;
+  }
+      
+  .search-form-button {
+    width: 55px;
+    background-color:#0065FC;
+    color: white;
+    border: unset;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 0 17px 17px 0;
+  }
+      
+  .filtres-section h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+      
+  .filtres-section {
+    display: flex;
+    margin: 0 0 20px 0;
+  }
+      
+  .liste-filtres {  
+    margin-right: 25px;
+    align-items: center;
+  }
+      
+  .container-filtres {
+    margin-left: 20px;
+    line-height: 1.6;
+    display: inline;
+  }
+    
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+    
+  .la_plus_populaires {
+    display: flex;
+    flex-direction: column;
+    border-color: #F2F2F2;
+    background-color: #F2F2F2;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+    align-content: center;
+  }
+      
+  .populaire-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;  
+    margin-left: 10px;
+  }
+      
+  .populaire-figure {
+    display: flex;
+    width: 91%;
+    border: 5px solid white;
+    border-radius: 25px;
+    margin: 15px 15px 15px 25px;
+    background-color: white;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
+  } 
+    
+  .Populaire-image {
+    display: flex;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    object-fit: cover;
+    width: 40%;
+    height: auto;
+  }
+
+  .populaire-description {
+        margin: 5px 0 0 5px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .hebergements {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+  }
+    
+  .hebergements-figure {
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+    height: 244px;
+    border: 5px solid white;
+    border-radius: 25px;
+    margin: 0px 0px 30px 15px;
+  }
+    
+  .hebergements-header {
+    margin: 10px 0 15px 10px;
+  }
+    
+  .Hebergements-image {
+    width: 100%;
+    height: 126px;
+    object-fit: cover;
+  }
+    
+  .afficher-plus {
+    margin: 5px 15px 20px 15px;
+  }
+    
+  .header-activites {
+    margin: 20px 0px 5px 15px;
+  }
+      
+  .section-activites {
+    display: flex;
+    flex-direction: column;
+  }    
   
     
   }
