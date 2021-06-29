@@ -328,6 +328,7 @@
   }
   
   .section-activites {
+    max-height: 450px;
     display: grid;
     flex-direction: row;
     grid-template-rows: 5rem 2rem 2rem 1rem 11rem;
