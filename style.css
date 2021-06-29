@@ -828,7 +828,7 @@
 
   /*-----------------------Code pour format de tablette-----------------*/
   
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 768px) {
 
   .filtres-section {
     display: flex;
