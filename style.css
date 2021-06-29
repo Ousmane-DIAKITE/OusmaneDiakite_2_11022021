@@ -825,7 +825,14 @@
   }
 
   /*----------------------Code pour format desktop plus de 1199px---------*/
+  @media screen and (max-width: 992px) {
 
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+    
+  }
   /*-----------------------Code pour format de tablette-----------------*/
   
   @media screen and (max-width: 768px) {
