@@ -898,6 +898,10 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    max-height: none;
+    grid-template-rows: none;
+    grid-gap: none;
+    row-gap: none;
   }
   
   .activites-carte-container,
