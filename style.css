@@ -981,6 +981,7 @@
   .filtres-section {
     display: flex;
     margin: 0 0 20px 0;
+    flex-direction: column;
   }
       
   .liste-filtres {  
@@ -1058,10 +1059,10 @@
   .hebergements-figure {
     display: flex;
     flex-direction: column;
-    width: 94%;
+    width: 100%;
     height: 244px;
     border: 5px solid white;
-    border-radius: 25px;
+    border-radius: 30px;
     margin: 0px 0px 30px 15px;
   }
     
@@ -1076,7 +1077,7 @@
   }
     
   .afficher-plus {
-    margin: 5px 15px 20px 15px;
+    margin: 0px 0px 20px 45px;
   }
     
   .header-activites {
@@ -1088,6 +1089,72 @@
     flex-direction: column;
   }    
   
-    
+  footer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: #F2F2F2 outset;
+    background-color: #F2F2F2;
+    font-family: 'Raleway Regular', sans-serif;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    border: none;
   }
+  .footer-left h3 {
+    font-size: 17px;
+    margin: 20px 10px 15px 0;
+  }
+  
+  .footer-central h3 {
+    font-size: 17px;
+    margin: 20px 10px 15px 0;
+  }
+  
+  .footer-right h3 {
+    font-size: 17px;
+    margin: 20px 10px 15px 0;
+  
+  }
+  
+  .footer-left li {
+    background-color: #F2F2F2;
+    display: flex;
+    font-size: 15px;
+    list-style: none;
+    text-decoration: none;
+    line-height: 23px;
+  }
+  
+  .footer-left {
+    background-color: #F2F2F2;
+  }
+  
+  .footer-central {
+    background-color: #F2F2F2;
+  }
+  
+  .footer-right {
+    background-color: #F2F2F2;
+  }
+  
+  .footer-central li {
+    background-color: #F2F2F2;
+    display: flex;
+    font-size: 15px;
+    list-style: none;
+    text-decoration: none;
+    line-height: 23px;
+  }
+  
+  .footer-right li {
+    background-color: #F2F2F2;
+    display: flex;
+    font-size: 15px;
+    list-style: none;
+    text-decoration: none;
+    line-height: 23px;
+  }  
+  }
+
+/*-------------------------Code format mobile---------------------------*/
  
