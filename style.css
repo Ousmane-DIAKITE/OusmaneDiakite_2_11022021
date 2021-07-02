@@ -205,6 +205,7 @@
     flex-wrap: wrap; 
     color: black;
     margin: 55px 0 20px 0;
+    flex-direction: column;
   }
   
   .liste-filtres {
@@ -814,7 +815,7 @@
     background-color: white;
     border-radius: 30px;
     box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
-    width: 43%;
+    width: 94%;
     height: 250px;
     margin: 20px 20px 15px 30px;
 } 
@@ -852,7 +853,7 @@
     font-family: 'Raleway Regular', sans-serif;
   }  
     
-  /* HOVER navbar */ 
+  /* HOVER */ 
       
   .link-navbar:hover {
     border: none;
@@ -866,8 +867,16 @@
   .signup-navbar:hover {
     transition: 0.3s;
   }
-      
-  /* HOVER navbar */
+  
+  .liste-filtres i:hover {
+    color: black;
+  }
+  
+  button:hover {
+    transform: scale(1.2);
+    color:#0065FC;
+  }
+  /* HOVER */
       
   .nav-bar {
     display: flex;
@@ -1063,7 +1072,7 @@
     height: 244px;
     border: 5px solid white;
     border-radius: 30px;
-    margin: 0px 0px 30px 15px;
+    margin: 0 0 30px 15px;
   }
     
   .hebergements-header {
@@ -1077,18 +1086,35 @@
   }
     
   .afficher-plus {
-    margin: 0px 0px 20px 45px;
+    margin: 0 0 20px 45px;
   }
     
   .header-activites {
-    margin: 20px 0px 5px 15px;
+    margin: 20px 0 5px 15px;
   }
       
   .section-activites {
     display: flex;
     flex-direction: column;
-  }    
-  
+  }   
+
+  .activites-carte-container,
+  .activites-carte-container1,
+  .activites-carte-container2,
+  .activites-carte-container3,
+  .activites-carte-container4,
+  .activites-carte-container5,
+  .activites-carte-container6 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    width: 88%;
+    height: 250px;
+    margin: 20px 20px 15px 30px;
+}
+
   footer {
     display: flex;
     flex-direction: column;
