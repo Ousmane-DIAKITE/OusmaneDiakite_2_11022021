@@ -679,6 +679,7 @@
     opacity: .6;
     color:#0065FC;
   }
+  
   .activites-carte-container,
   .activites-carte-container1,
   .activites-carte-container2, 
@@ -689,6 +690,7 @@
   transform: scale(1.05);
   opacity: .6;     
   }
+
   /* HOVER activites image */
   
   /* HOVER section filtres */
